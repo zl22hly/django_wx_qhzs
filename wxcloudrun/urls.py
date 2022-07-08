@@ -20,7 +20,8 @@ from django.conf.urls import url
 urlpatterns = (
     # 计数器接口
     url(r'^^api/count(/)?$', views.counter),
-
+    # 计数器接口2
+    url(r'^^sd/count(/)?$', views.get_count),
     # 获取主页
     url(r'(/)?$', views.index),
 )
