@@ -7,9 +7,11 @@ from wxcloudrun.models import Counters
 
 
 logger = logging.getLogger('log')
+
 def sd_name(request, _):
 
     return render(request, 'index.html')
+    
 def index(request, _):
     """
     获取主页

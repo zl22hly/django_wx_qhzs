@@ -1,5 +1,12 @@
 {
-  "containers": [],
+  "containers": [
+    {
+      "name": "django_wx_qhzs",
+      "domain": "",
+      "ip": "",
+      "containerId": "ee4f483b7df78ba5538cd677023cb85f36137c0ddc565082987edecf59947f34"
+    }
+  ],
   "config": {
     "django_wx_qhzs": {
       "containerPort": 80,

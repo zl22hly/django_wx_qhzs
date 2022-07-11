@@ -16,8 +16,9 @@ Including another URLconf
 
 from wxcloudrun import views
 from django.conf.urls import url
-
+from django.urls import include, path
 urlpatterns = (
+    path('polls/', include('polls.urls')),
     # 计数器接口
     url(r'^^api/count(/)?$', views.counter),
     # 计数器接口2
