@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 import time
+from tokenize import ContStr
 
 CUR_PATH = os.path.dirname(os.path.realpath(__file__))  
 LOG_PATH = os.path.join(os.path.dirname(CUR_PATH), 'logs') # LOG_PATH是存放日志的路径
@@ -29,7 +30,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'wxcloudrun'
+    'wxcloudrun',
+    'rest_framework',
+    'polls'
 ]
 
 MIDDLEWARE = [
@@ -70,10 +73,10 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': os.environ.get("MYSQL_DATABASE", 'django_demo'),
         # 'USER': os.environ.get("MYSQL_USERNAME"),
-        # 'HOST': os.environ.get("MYSQL_ADDRESS").split(':')[0],
-        # 'PORT': os.environ.get("MYSQL_ADDRESS").split(':')[1],
+        # 'HOST': os.environ.get("MYSQL_ADDRESS").split(':')[0],       
+        # 'PORT': os.environ.get("MYSQL_ADDRESS").split(':')[-1],
         # 'PASSWORD': os.environ.get("MYSQL_PASSWORD"),
-         'USER': 'root',
+        'USER': 'root',
         'HOST': '10.0.224.10',
         'PORT': "3306",
         'PASSWORD': 'E3wWUMKx',
@@ -194,3 +197,5 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGS_DIR = '/data/logs/'
+
+REST_FRAMEWORK = {}
