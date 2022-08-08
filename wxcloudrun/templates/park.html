@@ -1,0 +1,46 @@
+{% extends 'home.html' %}
+{% block content %}
+    <div class="container">
+        <div style="margin-bottom: 10px">
+            <a class="btn btn-success" href="/parkadd/">
+                新建
+            </a>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">公园</div>
+        <div class="panel-body">
+
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>名称</th>
+                    <th>级别</th>
+                    <th>编辑</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                {% for obj in queryset %}
+                    <tr>
+                        <th scope="row">{{ obj.id }}</th>
+                        <td>{{ obj.fullname }}</td>
+                        <td>{{ obj.naturalLevel }}</td>
+                        <td>
+                            <a class="btn btn-primary btn-xs" href="/parkedit/{{ obj.id }}/">编辑</a>
+                            <a class="btn btn-danger btn-xs" href="/parkdelete/?nid={{ obj.id }}">删除</a>
+                        </td>
+
+                    </tr>
+                {% endfor %}
+
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+
+{% endblock %}

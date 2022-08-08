@@ -4,6 +4,19 @@
 # 国际重要,国家重要,省级重要,其他重要
 # 国家级自然保护区,省级自然保护区,国家湿地公园,省级湿地公园,湿地保护小区,小微湿地
 from django.db import models
+from django.contrib.auth.models import AbstractUser
+
+class User(AbstractUser):
+    mobile = models.CharField(max_length=11, unique=True, verbose_name="手机")
+
+    # identifier = models.CharField(max_length=40, unique=True)
+    # USERNAME_FIELD = 'identifier'
+
+    class Meta:
+        db_table = "tb_users"
+
+    def __str__(self):
+        return self.username
 
 
 # Create your models here.
@@ -22,14 +35,79 @@ class Posts(models.Model):
 
 
 class Park(models.Model):
-    naturalLevel = models.CharField(max_length=20, verbose_name="自然级别")
-    ParkLevel = models.CharField(max_length=20, verbose_name="行政级别")
+    province_CHOICE = (
+        (1, "湖北省"),
+    )
+    area_CHOICE = (
+        (1, "鄂东北"),
+        (2, "鄂东南"),
+        (3, "鄂西南"),
+        (4, "鄂西北"),
+        (5, "江汉平原"),
+    )
+    city_CHOICE = (
+        (1, "武汉"),
+        (2, "鄂州"),
+        (3, "黄冈"),
+        (4, "黄石"),
+        (5, "咸宁"),
+        (6, "孝感"),
+        (7, "随州"),
+        (8, "荆门"),
+        (9, "荆州"),
+        (10, "襄阳"),
+        (11, "宜昌"),
+        (12, "十堰"),
+        (13, "恩施"),
+        (14, "神农架"),
+        (15, "天门"),
+        (16, "潜江"),
+        (17, "仙桃"),
+    )
+    county_CHOICE = (
+        (1, "神农架"),
+        (2, "天门"),
+        (3, "潜江"),
+        (4, "仙桃"),
+    )
+    mapLevel_CHOICE = (
+        (1, 15),
+        (2, 16),
+        (3, 17),
+        (4, 18),
+    )
+    initiate_CHOICE = (
+        (1, "2000以前"),
+        (2, "2000 - 2005"),
+        (3, "2006 - 2010"),
+        (4, "2011 - 2015"),
+        (5, "2016 - 2020"),
+        (6, "2021至今"),
+    )
+    naturalLevel_CHOICE = (
+        (1, "国际重要湿地"),
+        (2, "国家重要湿地"),
+        (3, "省级重要湿地"),
+        (4, "重要湿地"),
+
+    )
+    ParkLevel_CHOICE = (
+        (1, "国家级自然保护区"),
+        (2, "省级自然保护区"),
+        (3, "国家湿地公园"),
+        (4, "省级湿地公园"),
+        (5, "湿地保护区(小区)"),
+        (6, "省级小微湿地"),
+    )
+
+    naturalLevel = models.CharField(max_length=20, verbose_name="自然级别", choices=naturalLevel_CHOICE)
+    ParkLevel = models.CharField(max_length=20, verbose_name="级别划分", choices=ParkLevel_CHOICE)
     numbering = models.CharField(max_length=20, verbose_name="编号")
     name1 = models.CharField(max_length=60, verbose_name="名称")
     fullname = models.CharField(max_length=60, verbose_name="全名")
     abbreviation = models.CharField(max_length=10, verbose_name="简称")
     icon = models.CharField(max_length=60, verbose_name="图标")
-    initiate = models.DateTimeField(verbose_name="加入时间")
+    initiate = models.CharField(max_length=60, verbose_name="加入时间", choices=initiate_CHOICE)
     slide = models.CharField(max_length=60, verbose_name="轮播图片")
     introduceEN = models.CharField(max_length=600, verbose_name="介绍英")
     introduceZH = models.CharField(max_length=600, verbose_name="介绍中")
@@ -39,10 +117,10 @@ class Park(models.Model):
     introduceVR = models.CharField(max_length=60, verbose_name="介绍vr")
     lon = models.FloatField(verbose_name="中心经度")
     lat = models.FloatField(verbose_name="中心伟度")
-    mapLevel = models.IntegerField(verbose_name="最佳级别")
-    province = models.CharField(max_length=10, verbose_name="省")
-    area = models.CharField(max_length=20, verbose_name="片区")
-    city = models.CharField(max_length=10, verbose_name="市")
+    mapLevel = models.IntegerField(verbose_name="最佳级别", choices=mapLevel_CHOICE)
+    province = models.CharField(max_length=10, verbose_name="省", choices=province_CHOICE)
+    area = models.CharField(max_length=20, verbose_name="片区", choices=area_CHOICE)
+    city = models.CharField(max_length=10, verbose_name="市", choices=city_CHOICE)
     county = models.CharField(max_length=10, verbose_name="县")
     scenery = models.CharField(max_length=20, verbose_name="景点")
 
@@ -113,6 +191,22 @@ class HomeData(models.Model):
     class Meta:
         db_table = "sd_homeData"
         verbose_name = "首页"
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.animation
+
+        
+class HomeIMGData(models.Model):
+    fatherPark = models.ForeignKey(HomeData, on_delete=models.CASCADE, verbose_name="轮播")
+    homeURL = models.CharField(max_length=60, verbose_name="首页外链")
+    homeIMG = models.CharField(max_length=60, verbose_name="图片")
+    homeTitle = models.CharField(max_length=60, verbose_name="图片标题")
+    
+
+    class Meta:
+        db_table = "sd_homeIMGData"
+        verbose_name = "轮播"
         verbose_name_plural = verbose_name
 
     def __str__(self):

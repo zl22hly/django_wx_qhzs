@@ -32,7 +32,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'wxcloudrun',
     'rest_framework',
-    'polls'
+    'polls',
+    'django_filters'
 ]
 
 MIDDLEWARE = [
@@ -50,7 +51,7 @@ ROOT_URLCONF = 'wxcloudrun.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / '/wxcloudrun/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -77,8 +78,10 @@ DATABASES = {
         # 'PORT': os.environ.get("MYSQL_ADDRESS").split(':')[-1],
         # 'PASSWORD': os.environ.get("MYSQL_PASSWORD"),
         'USER': 'root',
-        'HOST': '10.0.224.10',
-        'PORT': "3306",
+        # 'HOST': '10.0.224.10',
+        # 'PORT': "3306",
+        'HOST': 'sh-cynosdbmysql-grp-hctuoel4.sql.tencentcdb.com',
+        'PORT': "21103",
         'PASSWORD': 'E3wWUMKx',
         'OPTIONS': {'charset': 'utf8mb4'},
     }
@@ -175,8 +178,9 @@ LOGGING = {
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
+AUTH_USER_MODEL = 'polls.User'
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
 TIME_ZONE = 'UTC'
 
@@ -190,7 +194,7 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATICFILES_DIRS = [BASE_DIR / 'static']
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
@@ -198,4 +202,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGS_DIR = '/data/logs/'
 
-REST_FRAMEWORK = {}
+REST_FRAMEWORK = {
+        'DEFAULT_FILTER_BACKENDS': ('django_filters.rest_framework.DjangoFilterBackend',)
+
+}
+
+FILTERS_DEFAULT_LOOKUP_EXPR = 'contains'
