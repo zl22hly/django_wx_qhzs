@@ -1,0 +1,4 @@
+[2022-08-08 11:38:50,859] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 3}
+[2022-08-08 11:38:55,577] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 3}
+[2022-08-08 11:39:55,990] [views.py:65] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2022-08-08 11:39:56,218] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 4}

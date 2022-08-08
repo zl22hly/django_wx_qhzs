@@ -1,3 +1,26 @@
 [2022-08-08 01:51:19,738] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 [2022-08-08 02:14:59,582] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 [2022-08-08 10:20:09,030] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-08 11:38:23,444] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-08 11:38:44,335] [log.py:224] [log:log_response] [WARNING]- Not Found: /news/
+[2022-08-08 11:38:44,336] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /news/ HTTP/1.1" 404 2433
+[2022-08-08 11:38:45,231] [log.py:224] [log:log_response] [WARNING]- Not Found: /news/
+[2022-08-08 11:38:45,235] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /news/ HTTP/1.1" 404 2433
+[2022-08-08 11:38:48,467] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2022-08-08 11:38:50,859] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 3}
+[2022-08-08 11:38:50,860] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 22
+[2022-08-08 11:38:55,294] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2022-08-08 11:38:55,577] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 3}
+[2022-08-08 11:38:55,578] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 22
+[2022-08-08 11:39:55,990] [views.py:65] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2022-08-08 11:39:56,218] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 4}
+[2022-08-08 11:39:56,218] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2022-08-08 11:40:38,109] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /polls/ HTTP/1.1" 200 6141
+[2022-08-08 11:40:41,150] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /polls/home/ HTTP/1.1" 200 9573
+[2022-08-08 11:40:45,108] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /polls/Protect/ HTTP/1.1" 200 10100
+[2022-08-08 11:40:48,188] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /polls/newsPosts/ HTTP/1.1" 200 8575
+[2022-08-08 11:40:52,544] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /polls/HomeIMGData/ HTTP/1.1" 200 9552
+[2022-08-08 11:41:09,539] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-08-08 11:41:10,788] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-08 11:41:12,730] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-08-08 11:41:13,582] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

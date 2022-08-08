@@ -13,7 +13,7 @@ class User(AbstractUser):
     # USERNAME_FIELD = 'identifier'
 
     class Meta:
-        db_table = "tb_users"
+        db_table = "sd_users"
 
     def __str__(self):
         return self.username
@@ -196,7 +196,7 @@ class HomeData(models.Model):
     def __str__(self):
         return self.animation
 
-        
+
 class HomeIMGData(models.Model):
     fatherPark = models.ForeignKey(HomeData, on_delete=models.CASCADE, verbose_name="轮播")
     homeURL = models.CharField(max_length=60, verbose_name="首页外链")
