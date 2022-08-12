@@ -3,7 +3,8 @@
     {
       "name": "django_wx_qhzs",
       "domain": "",
-      "ip": ""
+      "ip": "",
+      "containerId": "acbd2e492cf26853b92bb79a20b83a590a91ce2cce412b5757699adcad53d30f"
     }
   ],
   "config": {

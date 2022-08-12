@@ -17,6 +17,7 @@ urlpatterns = [
     url(r'parkadd/', views.park_add),
     url(r'parkdelete/', views.park_delete),
     url(r'parkedit/<int:nid>/', views.park_edit),
+    url(r'addpark/', views.add_park),
 ]
 router = DefaultRouter()
 # router.register(r'^register/$', views.registerView.as_view(), basename="register")
