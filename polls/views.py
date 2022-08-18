@@ -148,5 +148,17 @@ def add_park(request):
                                 mapLevel=mapLevel_v, province=province_v,
                                 area=area_v, city=city_v,
                                 county=county_v, scenery=scenery_v)
+        else:
+            Park.objects.filter(name1=name1_v).update(naturalLevel=naturalLevel_v, ParkLevel=ParkLevel_v,
+                                                      numbering=numbering_v, name1=name1_v, fullname=fullname_v,
+                                                      abbreviation=abbreviation_v, icon=icon_v,
+                                                      initiate=initiate_v, slide=slide_v,
+                                                      introduceEN=introduceEN_v, introduceZH=introduceZH_v,
+                                                      introduceMP3EN=introduceMP3EN_v, introduceMP3ZH=introduceMP3ZH_v,
+                                                      introduceMP4=introduceMP4_v, introduceVR=introduceVR_v,
+                                                      lon=lon_v, lat=lat_v,
+                                                      mapLevel=mapLevel_v, province=province_v,
+                                                      area=area_v, city=city_v,
+                                                      county=county_v, scenery=scenery_v)                        
 
     return render(request, 'addPark.html')

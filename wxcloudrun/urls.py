@@ -18,11 +18,11 @@ from wxcloudrun import views
 from django.conf.urls import url
 from django.urls import include, path
 urlpatterns = (
-    path('polls/', include('polls.urls')),
+    path('', include('polls.urls')),
     # 计数器接口
     url(r'^^api/count(/)?$', views.counter),
     # 计数器接口2
     url(r'^^sd/count(/)?$', views.sd_name),
     # 获取主页
-    url(r'(a/)?$', views.index),
+    # url(r'(a/)?$', views.index),
 )
