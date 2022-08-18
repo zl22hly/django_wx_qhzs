@@ -48,8 +48,8 @@ class ParkView(ModelViewSet):
     queryset = Park.objects.all()
     serializer_class = ParkInfoSerializer
     filter_backends = (SearchFilter, OrderingFilter, DjangoFilterBackend)  # 指定过滤器
-    search_fields = ('fullname', 'id')  # 指定可搜索的字段
-    filterset_fields = ('fullname', 'id')
+    search_fields = ('name1', 'fullname', 'id')  # 指定可搜索的字段
+    filterset_fields = ('name1', 'fullname', 'id')
 
 
 class ProtectView(ModelViewSet):
