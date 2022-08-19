@@ -5,7 +5,7 @@
 # 国家级自然保护区,省级自然保护区,国家湿地公园,省级湿地公园,湿地保护小区,小微湿地
 from django.db import models
 from django.contrib.auth.models import AbstractUser
-
+#用户模型
 class User(AbstractUser):
     mobile = models.CharField(max_length=11, unique=True, verbose_name="手机")
 
@@ -183,10 +183,10 @@ class News(models.Model):
 
 
 class HomeData(models.Model):
-    homeURL = models.CharField(max_length=60, verbose_name="首页外链")
-    homeIMG = models.CharField(max_length=60, verbose_name="图片")
-    homeTitle = models.CharField(max_length=60, verbose_name="图片标题")
-    animation = models.CharField(max_length=60, verbose_name="首页动画图片")
+    homeURL = models.JSONField(default=list, blank=True, null=True, verbose_name="首页外链")
+    homeIMG = models.JSONField(default=list, blank=True, null=True, verbose_name="图片")
+    homeTitle = models.JSONField(default=list, blank=True, null=True, verbose_name="图片标题")
+    animation = models.CharField(max_length=600, verbose_name="首页动画图片")
 
     class Meta:
         db_table = "sd_homeData"
@@ -199,9 +199,9 @@ class HomeData(models.Model):
 
 class HomeIMGData(models.Model):
     fatherPark = models.ForeignKey(HomeData, on_delete=models.CASCADE, verbose_name="轮播")
-    homeURL = models.CharField(max_length=60, verbose_name="首页外链")
-    homeIMG = models.CharField(max_length=60, verbose_name="图片")
-    homeTitle = models.CharField(max_length=60, verbose_name="图片标题")
+    homeURL = models.CharField(max_length=600, verbose_name="首页外链")
+    homeIMG = models.CharField(max_length=600, verbose_name="图片")
+    homeTitle = models.CharField(max_length=600, verbose_name="图片标题")
     
 
     class Meta:

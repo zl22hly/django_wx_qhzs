@@ -1,0 +1,53 @@
+[2022-08-19 10:45:20,420] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 10:45:26,065] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-08-19 10:45:26,992] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 10:45:30,438] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-08-19 10:45:31,284] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 14:19:56,175] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-08-19 14:19:57,446] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 14:19:59,952] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-08-19 14:20:01,025] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 14:21:19,473] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-08-19 14:21:20,938] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 14:39:44,880] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 14:39:49,307] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-08-19 14:39:49,350] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[2022-08-19 14:39:49,351] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2022-08-19 14:39:49,355] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2022-08-19 14:39:49,365] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2022-08-19 14:39:49,367] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[2022-08-19 14:39:49,368] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[2022-08-19 14:39:49,372] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2022-08-19 14:39:49,372] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+[2022-08-19 14:39:49,374] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2022-08-19 14:39:49,375] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2022-08-19 14:39:49,389] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2022-08-19 14:40:07,610] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /home/ HTTP/1.1" 200 9300
+[2022-08-19 14:53:02,551] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/ HTTP/1.1" 201 10666
+[2022-08-19 15:24:50,894] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-08-19 15:24:54,290] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /home/ HTTP/1.1" 200 10326
+[2022-08-19 15:24:58,541] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /home/1 HTTP/1.1" 301 0
+[2022-08-19 15:24:58,711] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /home/1/ HTTP/1.1" 200 12332
+[2022-08-19 15:25:44,374] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /home/1/ HTTP/1.1" 200 12820
+[2022-08-19 15:26:23,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /home/1/ HTTP/1.1" 200 12805
+[2022-08-19 15:26:52,751] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /home/1/ HTTP/1.1" 200 12772
+[2022-08-19 15:43:57,337] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /home/1/ HTTP/1.1" 200 12164
+[2022-08-19 15:48:13,241] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /home/1/ HTTP/1.1" 200 11992
+[2022-08-19 15:51:27,483] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /home/1/?format=json HTTP/1.1" 200 288
+[2022-08-19 16:02:45,247] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /home/1/ HTTP/1.1" 200 11992
+[2022-08-19 16:04:22,179] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /home/1/ HTTP/1.1" 200 12212
+[2022-08-19 16:04:39,984] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /home/1/?format=json HTTP/1.1" 200 314
+[2022-08-19 16:13:46,730] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-08-19 16:13:47,796] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 16:13:56,707] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-08-19 16:13:57,664] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 16:13:59,326] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-08-19 16:14:00,071] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 16:14:27,586] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-08-19 16:14:28,546] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 16:14:36,512] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-08-19 16:14:37,495] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 16:15:11,438] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 16:15:24,692] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /home/1/?format=json HTTP/1.1" 200 290
+[2022-08-19 16:16:20,370] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-08-19 16:16:21,280] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
