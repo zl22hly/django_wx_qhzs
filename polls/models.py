@@ -170,10 +170,10 @@ class News(models.Model):
     point = models.CharField(max_length=60, verbose_name="要点")
     text = models.TextField(max_length=2000, verbose_name="正文")
     quote = models.CharField(max_length=60, verbose_name="引用位置")
-    add_Date = models.DateTimeField(verbose_name="添加时间")
+    add_Date = models.CharField(max_length=60, verbose_name="添加时间")
     category = models.CharField(max_length=60, verbose_name="分类")
 
-    class Meta:
+    class Meta:  
         db_table = "sd_news"
         verbose_name = "资讯原文"
         verbose_name_plural = verbose_name

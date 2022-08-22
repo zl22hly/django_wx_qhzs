@@ -51,3 +51,5 @@
 [2022-08-19 16:15:24,692] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /home/1/?format=json HTTP/1.1" 200 290
 [2022-08-19 16:16:20,370] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
 [2022-08-19 16:16:21,280] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-19 17:33:51,575] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /home/1/?format=json HTTP/1.1" 200 290
+[2022-08-22 09:42:39,699] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
