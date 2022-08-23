@@ -592,3 +592,70 @@ AttributeError: 'NewsPosts' object has no attribute 'name3'
 [2022-08-23 11:08:08,856] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/ HTTP/1.1" 200 157207
 [2022-08-23 11:08:08,984] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /newsPosts/ HTTP/1.1" 200 173
 [2022-08-23 11:08:09,033] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?ordering=-add_Date&limit=20&offset=0 HTTP/1.1" 200 19682
+[2022-08-23 13:36:01,811] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-08-23 13:36:01,813] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-08-23 13:55:45,175] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-08-23 13:55:45,176] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-08-23 14:05:53,047] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-08-23 14:05:53,047] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-08-23 14:45:15,965] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-08-23 14:45:15,966] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-08-23 15:10:00,868] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-08-23 15:10:02,013] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:10:05,506] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-08-23 15:10:06,277] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:10:09,493] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-08-23 15:10:10,357] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:11:15,323] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/ HTTP/1.1" 200 157207
+[2022-08-23 15:11:15,608] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?ordering=-add_Date&limit=20&offset=0 HTTP/1.1" 200 19682
+[2022-08-23 15:11:48,734] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-08-23 15:11:58,302] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 187670
+[2022-08-23 15:12:33,720] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:12:42,603] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:12:44,425] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:12:57,110] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%22%E7%BE%8E%22 HTTP/1.1" 200 187936
+[2022-08-23 15:13:00,186] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%22%E7%BE%8E%22 HTTP/1.1" 200 187936
+[2022-08-23 15:13:01,336] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%22%E7%BE%8E%22 HTTP/1.1" 200 187936
+[2022-08-23 15:13:02,308] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%22%E7%BE%8E%22 HTTP/1.1" 200 187936
+[2022-08-23 15:13:03,022] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%22%E7%BE%8E%22 HTTP/1.1" 200 187936
+[2022-08-23 15:13:03,996] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%22%E7%BE%8E%22 HTTP/1.1" 200 187936
+[2022-08-23 15:13:08,737] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:32,766] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:33,840] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:35,497] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:36,397] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:36,900] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:37,484] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:37,944] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:38,430] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:38,911] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:39,514] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:39,952] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:40,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:13:57,992] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/ HTTP/1.1" 200 237923
+[2022-08-23 15:14:35,422] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?fullname=%E5%AE%9D HTTP/1.1" 200 26943
+[2022-08-23 15:14:49,825] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?fullname=%E6%A1%A5 HTTP/1.1" 200 31925
+[2022-08-23 15:15:16,838] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?fullname=%E6%B2%B3 HTTP/1.1" 200 66860
+[2022-08-23 15:16:00,368] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?fullname=&&ordering=-id HTTP/1.1" 200 238939
+[2022-08-23 15:16:48,797] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?fullname=&&ordering=-initiate HTTP/1.1" 200 238981
+[2022-08-23 15:17:21,695] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 187670
+[2022-08-23 15:17:42,008] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:17:57,276] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:18:08,841] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:18:27,260] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-08-23 15:18:28,378] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:18:30,801] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-08-23 15:18:31,596] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:18:47,749] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:18:54,681] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:19:11,316] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:19:12,107] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:19:12,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:19:13,200] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:19:14,199] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:19:14,715] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:19:15,555] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:20:21,425] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E&ordering=-id HTTP/1.1" 200 188111
+[2022-08-23 15:20:37,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=2&ordering=-id HTTP/1.1" 200 188023
+[2022-08-23 15:20:46,057] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=7&ordering=-id HTTP/1.1" 200 188023
+[2022-08-23 15:20:50,154] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=7&ordering=-id HTTP/1.1" 200 188023
