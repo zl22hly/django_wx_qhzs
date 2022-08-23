@@ -151,20 +151,21 @@ class Protect(models.Model):
 
 
 class NewsPosts(models.Model):
-    name3 = models.CharField(max_length=60, verbose_name="分类")
-
+    label = models.CharField(max_length=60, verbose_name="分类")
+    checked= models.CharField(max_length=60, verbose_name="主要")
+    value= models.CharField(max_length=60, verbose_name="数值")
     class Meta:
         db_table = "sd_newsPosts"
         verbose_name = "资讯分类"
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.name3
+        return self.label
 
 
 class News(models.Model):
     fatherPark = models.ForeignKey(NewsPosts, on_delete=models.CASCADE, verbose_name="所属分类")
-    IMG = models.CharField(max_length=60, verbose_name="图片")
+    IMG = models.CharField(max_length=60, verbose_name="图片",default="news.jpg")
     title = models.CharField(max_length=60, verbose_name="标题")
     subTitle = models.CharField(max_length=60, verbose_name="副标题")
     point = models.CharField(max_length=60, verbose_name="要点")
