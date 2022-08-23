@@ -659,3 +659,61 @@ AttributeError: 'NewsPosts' object has no attribute 'name3'
 [2022-08-23 15:20:37,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=2&ordering=-id HTTP/1.1" 200 188023
 [2022-08-23 15:20:46,057] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=7&ordering=-id HTTP/1.1" 200 188023
 [2022-08-23 15:20:50,154] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=7&ordering=-id HTTP/1.1" 200 188023
+[2022-08-23 15:24:44,827] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=7&ordering=-id HTTP/1.1" 200 188023
+[2022-08-23 15:24:44,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2022-08-23 15:24:44,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[2022-08-23 15:24:44,855] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2022-08-23 15:24:44,858] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[2022-08-23 15:24:44,861] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2022-08-23 15:24:44,861] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[2022-08-23 15:24:44,864] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2022-08-23 15:24:44,865] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+[2022-08-23 15:24:44,869] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2022-08-23 15:24:44,869] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2022-08-23 15:24:44,889] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2022-08-23 15:24:44,952] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2022-08-23 15:24:58,579] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?id=7&ordering=-id HTTP/1.1" 200 187990
+[2022-08-23 15:25:33,619] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=7&ordering=-id HTTP/1.1" 200 188023
+[2022-08-23 15:25:43,168] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=7&ordering=id HTTP/1.1" 200 188016
+[2022-08-23 15:25:58,194] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=7&ordering=id HTTP/1.1" 200 188016
+[2022-08-23 15:28:08,178] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E6%B9%BF%E5%9C%B0&ordering=id HTTP/1.1" 200 188203
+[2022-08-23 15:30:24,295] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?category=1&ordering=-id&limit=20&offset=0 HTTP/1.1" 200 30106
+[2022-08-23 15:30:45,321] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?category=3&ordering=-id&limit=20&offset=0 HTTP/1.1" 200 30106
+[2022-08-23 15:31:05,890] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?ordering=-id&limit=20&offset=0&category=3 HTTP/1.1" 200 30106
+[2022-08-23 15:31:21,055] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?ordering=-id&limit=20&offset=0&category=3 HTTP/1.1" 200 30106
+[2022-08-23 15:31:21,838] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 14158)
+
+[2022-08-23 15:31:22,408] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 12048)
+
+[2022-08-23 15:31:22,953] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 14495)
+
+[2022-08-23 15:31:23,234] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 14498)
+
+[2022-08-23 15:31:23,742] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?ordering=-id&limit=20&offset=0&category=3 HTTP/1.1" 200 30106
+[2022-08-23 15:31:29,247] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?ordering=-id&limit=20&offset=0&category=3 HTTP/1.1" 200 30106
+[2022-08-23 15:31:29,944] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 14334)
+
+[2022-08-23 15:31:30,330] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?ordering=-id&limit=20&offset=0&category=3 HTTP/1.1" 200 30106
+[2022-08-23 15:31:32,540] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?ordering=-id&limit=20&offset=0&category=3 HTTP/1.1" 200 30106
+[2022-08-23 15:31:33,294] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?ordering=-id&limit=20&offset=0&category=3 HTTP/1.1" 200 30106
+[2022-08-23 15:31:39,157] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?ordering=-id&limit=20&offset=0&category=3 HTTP/1.1" 200 30106
+[2022-08-23 15:36:19,023] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-08-23 15:36:20,064] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:36:49,238] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:37:22,672] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 18486
+[2022-08-23 15:37:34,791] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-08-23 15:37:35,852] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:37:42,397] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:37:48,195] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:38:13,670] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-08-23 15:38:14,620] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:38:26,997] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:38:30,260] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 187870
+[2022-08-23 15:39:24,102] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-08-23 15:39:25,006] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:39:35,621] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E HTTP/1.1" 200 16179
+[2022-08-23 15:45:56,713] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?title=%E7%BE%8E&ordering=-id HTTP/1.1" 200 16420
+[2022-08-23 15:46:08,126] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-08-23 15:46:09,091] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-23 15:50:18,790] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-08-23 15:50:19,727] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

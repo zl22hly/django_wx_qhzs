@@ -42,9 +42,8 @@ class NewsView(ModelViewSet):
     pagination_class = LimitOffsetPagination
     filter_backends = (SearchFilter, OrderingFilter,
                        DjangoFilterBackend)  # 指定过滤器
-    search_fields = ('category', 'id','title',)  # 指定可搜索的字段
-    filterset_fields = ('category','id','title',)
-    filter_backends = [filters.OrderingFilter]
+    search_fields = ('category','title',)  # 指定可搜索的字段
+    filterset_fields = ('category','title',)
     ordering_fields=['id','add_Date']
 # /news/?category=1&ordering=-id&limit=20&offset=0
 
@@ -66,6 +65,7 @@ class ParkView(ModelViewSet):
                        DjangoFilterBackend)  # 指定过滤器
     search_fields = ('name1', 'fullname', 'id')  # 指定可搜索的字段
     filterset_fields = ('name1', 'fullname', 'id')
+    ordering_fields=['id','add_Date']
 
 
 class ProtectView(ModelViewSet):
