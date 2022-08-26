@@ -33,7 +33,11 @@ INSTALLED_APPS = [
     'wxcloudrun',
     'rest_framework',
     'polls',
-    'django_filters'
+    'sslserver',
+    'django_filters',    
+    # 'werkzeug_debugger_runserver',  # 开启https需要的服务
+    # 'django_extensions',  # 开启https需要的服务
+
 ]
 
 MIDDLEWARE = [
@@ -78,10 +82,10 @@ DATABASES = {
         # 'PORT': os.environ.get("MYSQL_ADDRESS").split(':')[-1],
         # 'PASSWORD': os.environ.get("MYSQL_PASSWORD"),
         'USER': 'root',
-        # 'HOST': '10.0.224.10',
-        # 'PORT': "3306",
-        'HOST': 'sh-cynosdbmysql-grp-hctuoel4.sql.tencentcdb.com',
-        'PORT': "21103",
+        'HOST': '10.0.224.10',
+        'PORT': "3306",
+        # 'HOST': 'sh-cynosdbmysql-grp-hctuoel4.sql.tencentcdb.com',
+        # 'PORT': "21103",
         'PASSWORD': 'E3wWUMKx',
         'OPTIONS': {'charset': 'utf8mb4'},
     }

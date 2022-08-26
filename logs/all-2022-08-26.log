@@ -1,0 +1,152 @@
+[2022-08-26 11:07:53,937] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-26 11:10:38,918] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-08-26 11:10:40,039] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-26 11:21:30,033] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-08-26 11:21:31,379] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-26 11:21:39,761] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-08-26 11:21:40,822] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-26 11:22:48,594] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-26 11:23:52,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6035
+[2022-08-26 11:23:52,688] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2022-08-26 11:23:52,694] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2022-08-26 11:23:52,698] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[2022-08-26 11:23:52,701] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2022-08-26 11:23:52,711] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+[2022-08-26 11:23:52,716] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[2022-08-26 11:23:52,720] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2022-08-26 11:23:52,723] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2022-08-26 11:23:52,727] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2022-08-26 11:23:52,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[2022-08-26 11:23:52,734] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2022-08-26 11:23:52,857] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-08-26 11:23:52,858] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9500
+[2022-08-26 11:30:05,539] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-26 11:30:10,209] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6035
+[2022-08-26 11:30:10,225] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2022-08-26 11:30:10,232] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2022-08-26 11:30:10,242] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+[2022-08-26 11:30:10,251] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2022-08-26 11:30:10,257] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[2022-08-26 11:30:10,265] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[2022-08-26 11:30:10,270] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2022-08-26 11:30:10,274] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[2022-08-26 11:30:10,277] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2022-08-26 11:30:10,281] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2022-08-26 11:30:10,281] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2022-08-26 11:30:18,888] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /news/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\base\base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\mysql\base.py", line 234, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\pymysql\connections.py", line 633, in connect
+    self._request_authentication()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\pymysql\connections.py", line 907, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (9449, 'CynosDB serverless instance is resuming, please try connecting again')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\base\base.py", line 259, in cursor
+    return self._cursor()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\base\base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\base\base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\asyncio.py", line 33, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\mysql\base.py", line 234, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\pymysql\connections.py", line 633, in connect
+    self._request_authentication()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\pymysql\connections.py", line 907, in _request_authentication
+    auth_packet = self._read_packet()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (9449, 'CynosDB serverless instance is resuming, please try connecting again')
+[2022-08-26 11:30:18,906] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /news/ HTTP/1.1" 500 284017
+[2022-08-26 11:30:27,618] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /user/ HTTP/1.1" 200 18409
+[2022-08-26 11:30:27,646] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[2022-08-26 11:30:27,649] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2022-08-26 11:30:27,650] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2022-08-26 11:30:27,654] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2022-08-26 11:30:32,059] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 188511
+[2022-08-26 11:30:32,085] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2022-08-26 11:30:32,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2022-08-26 11:30:32,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[2022-08-26 11:30:32,087] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2022-08-26 11:30:32,294] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2022-08-26 11:30:37,152] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/2 HTTP/1.1" 301 0
+[2022-08-26 11:30:37,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/2/ HTTP/1.1" 200 20547
+[2022-08-26 11:31:08,093] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-08-26 11:31:09,204] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-26 11:31:11,571] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-08-26 11:31:12,511] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-26 11:31:15,576] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-08-26 11:31:16,470] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-26 11:31:46,988] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
