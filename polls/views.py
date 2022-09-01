@@ -63,8 +63,8 @@ class ParkView(ModelViewSet):
     serializer_class = ParkInfoSerializer
     filter_backends = (SearchFilter, OrderingFilter,
                        DjangoFilterBackend)  # 指定过滤器
-    search_fields = ('name1', 'fullname', 'id')  # 指定可搜索的字段
-    filterset_fields = ('name1', 'fullname', 'id')
+    search_fields = ('name1', 'fullname', 'id','abbreviation','naturalLevel','county')  # 指定可搜索的字段
+    filterset_fields = ('name1', 'fullname', 'id','abbreviation','naturalLevel','county')
     ordering_fields=['id','add_Date']
 
 
