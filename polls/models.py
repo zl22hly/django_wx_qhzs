@@ -122,7 +122,7 @@ class Park(models.Model):
     area = models.CharField(max_length=60, verbose_name="片区", choices=area_CHOICE)
     city = models.CharField(max_length=50, verbose_name="市", choices=city_CHOICE)
     county = models.CharField(max_length=50, verbose_name="县")
-    scenery = models.CharField(max_length=600, verbose_name="景点")
+    scenery = models.JSONField(default=list, blank=True, null=True,verbose_name="景点")
 
     class Meta:
         db_table = "sd_park"
