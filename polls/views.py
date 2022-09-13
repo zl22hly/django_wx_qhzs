@@ -21,7 +21,7 @@ from rest_framework.filters import SearchFilter, OrderingFilter
 from django import forms
 from openpyxl import load_workbook
 
-
+import json
 import os
 import sys
 
@@ -63,17 +63,18 @@ class ParkView(ModelViewSet):
     serializer_class = ParkInfoSerializer
     filter_backends = (SearchFilter, OrderingFilter,
                        DjangoFilterBackend)  # 指定过滤器
-    search_fields = ('name1', 'fullname', 'id','abbreviation','naturalLevel','county')  # 指定可搜索的字段
-    filterset_fields = ('name1', 'fullname', 'id','abbreviation','naturalLevel','county')
+    search_fields = ('name1', 'fullname', 'id','abbreviation','naturalLevel','county',"city")  # 指定可搜索的字段
+    filterset_fields = ('name1', 'fullname', 'id','abbreviation','naturalLevel','county',"city")
     ordering_fields=['id','add_Date']
 
 
 class ProtectView(ModelViewSet):
     queryset = Protect.objects.all()
     serializer_class = ProtectInfoSerializer
-    # filter_backends = (SearchFilter, OrderingFilter, DjangoFilterBackend)  # 指定过滤器
-    # search_fields = ('name2', )  # 指定可搜索的字段
-    # filterset_fields = ('name2', )
+    filter_backends = (SearchFilter, OrderingFilter, DjangoFilterBackend)  # 指定过滤器
+    # search_fields = ('fatherPark' )  # 指定可搜索的字段
+    filterset_fields = ('id',)
+    # ordering_fields=['fatherPark']
 
 
 class parkFormAdd(forms.ModelForm):
@@ -150,7 +151,7 @@ def add_park(request):
         area_v = row[19].value
         city_v = row[20].value
         county_v = row[21].value
-        scenery_v = row[22].value
+        scenery_v = json.loads(row[22].value)
         exists = Park.objects.filter(name1=name1_v).exists()
         if not exists:
             Park.objects.create(naturalLevel=naturalLevel_v, ParkLevel=ParkLevel_v,

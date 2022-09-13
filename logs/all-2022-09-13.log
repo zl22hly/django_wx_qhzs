@@ -1,0 +1,1633 @@
+[2022-09-13 12:30:56,719] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 12:31:02,675] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /parkadd/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: "'../'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 103, in park_add
+    return render(request, 'parkadd.html', {'form': form})
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: ''../''. Did you forget to register or load this tag?
+[2022-09-13 12:31:02,683] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /parkadd/ HTTP/1.1" 500 162394
+[2022-09-13 12:31:04,201] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /parkadd/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: "'../'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 103, in park_add
+    return render(request, 'parkadd.html', {'form': form})
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: ''../''. Did you forget to register or load this tag?
+[2022-09-13 12:31:04,207] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /parkadd/ HTTP/1.1" 500 162394
+[2022-09-13 12:31:23,955] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /parkadd/ HTTP/1.1" 200 11293
+[2022-09-13 12:31:23,990] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2022-09-13 12:31:23,991] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-13 12:31:23,993] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2022-09-13 12:31:24,041] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-13 12:36:07,934] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /parkadd/ HTTP/1.1" 200 11821
+[2022-09-13 12:36:07,967] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-13 12:36:08,023] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-13 12:36:15,934] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /parkadd/ HTTP/1.1" 200 11857
+[2022-09-13 12:36:15,965] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-13 12:36:32,347] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /parkadd/ HTTP/1.1" 200 11879
+[2022-09-13 12:36:32,377] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-13 17:07:12,445] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:07:12,448] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:07:12,712] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 17:07:34,172] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/ HTTP/1.1" 200 17527
+[2022-09-13 17:11:10,658] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-13 17:11:12,012] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:11:18,162] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-13 17:11:19,318] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:11:50,567] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-13 17:11:51,665] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:13:44,086] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:13:45,564] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:13:59,475] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:14:00,689] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:14:02,993] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:14:04,063] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:16:17,599] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:17,600] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:18,180] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:18,181] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:18,798] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:18,799] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:19,397] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:19,398] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:20,014] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:20,015] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:20,630] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:20,631] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:21,247] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:21,247] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:21,864] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:21,864] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:22,481] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:22,482] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:23,082] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:23,083] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:23,697] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:23,697] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:24,318] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:24,319] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:24,929] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:24,930] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:25,529] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:25,530] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:26,130] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:26,131] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:26,731] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:26,732] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:27,332] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:27,333] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:27,946] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:27,947] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:28,552] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:28,553] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:29,163] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:29,163] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:29,764] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:16:29,764] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:16:30,259] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:16:30,267] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/?fatherPark=%E6%9D%9C%E5%85%AC%E6%B9%96 HTTP/1.1" 500 148336
+[2022-09-13 17:17:03,687] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:17:07,956] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:17:07,963] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/?fatherPark=%E6%9D%9C%E5%85%AC%E6%B9%96 HTTP/1.1" 500 148473
+[2022-09-13 17:17:15,802] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:17:15,804] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:17:16,416] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:17:16,417] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:17:17,032] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:17:17,033] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:17:17,633] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:17:17,634] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:17:18,235] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:17:18,236] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:17:18,849] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:17:18,850] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:17:19,453] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:17:19,454] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:17:20,066] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:17:20,067] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:17:20,666] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:17:20,668] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:17:21,282] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:17:21,290] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 147491
+[2022-09-13 17:17:24,438] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:17:24,445] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 147628
+[2022-09-13 17:17:30,314] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:17:30,325] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 147628
+[2022-09-13 17:17:33,089] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:17:33,090] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:17:33,397] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 17:17:36,030] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:17:36,037] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 147642
+[2022-09-13 17:17:41,746] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 17:17:44,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/ HTTP/1.1" 200 338774
+[2022-09-13 17:17:57,091] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 17:18:00,526] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/ HTTP/1.1" 200 338774
+[2022-09-13 17:18:02,830] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:02,831] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:03,437] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:03,438] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:04,055] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:04,055] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:04,670] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:04,670] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:05,272] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:05,273] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:05,884] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:05,885] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:06,487] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:06,488] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:07,101] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:07,102] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:07,703] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:07,704] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:08,302] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:08,303] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:08,902] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:08,903] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:09,519] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:09,519] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:10,136] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:10,136] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:10,737] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:10,738] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:11,353] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:11,357] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:11,954] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:11,955] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:12,554] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:12,554] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:13,171] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:13,171] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:13,786] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:13,787] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:14,403] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:14,404] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:15,018] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:15,019] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:15,621] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:15,621] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:16,222] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:16,223] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:16,841] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:16,842] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:17,527] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?name1=%E5%85%89 HTTP/1.1" 200 20946
+[2022-09-13 17:18:22,692] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:22,693] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:23,288] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:23,288] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:23,888] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:23,888] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:24,489] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:24,490] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:25,089] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:25,089] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:25,688] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:25,689] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:26,304] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:26,305] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:26,920] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:26,921] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:27,538] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:27,538] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:28,137] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:28,138] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:28,754] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:28,755] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:29,355] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:29,355] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:29,955] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:29,956] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:30,570] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:30,571] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:31,174] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:31,175] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:31,787] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:31,788] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:32,404] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:32,404] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:33,005] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:33,006] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:33,623] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:33,624] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:34,226] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:34,227] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:34,837] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:18:34,838] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:18:35,734] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?name1=%E5%AF%8C HTTP/1.1" 200 28290
+[2022-09-13 17:18:40,524] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?name1=%E5%85%89 HTTP/1.1" 200 20946
+[2022-09-13 17:19:07,705] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:19:09,058] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:19:13,875] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:19:15,166] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:19:59,930] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:20:01,104] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:20:03,575] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:20:04,829] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:20:06,912] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:20:07,945] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:20:36,654] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:20:37,880] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:20:40,234] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:20:41,245] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:20:44,289] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:20:45,366] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:20:49,673] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:20:50,858] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:20:54,307] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:20:55,561] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:21:03,258] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/ HTTP/1.1" 200 338774
+[2022-09-13 17:21:06,078] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 17:21:08,132] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:21:08,140] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 147644
+[2022-09-13 17:21:10,396] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:21:10,403] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 147781
+[2022-09-13 17:21:25,859] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:21:28,512] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 17:21:29,634] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 17:21:32,684] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:21:32,692] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 147644
+[2022-09-13 17:21:55,970] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:21:57,134] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:22:06,344] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:22:07,500] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:22:09,919] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:22:10,949] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:22:13,032] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:22:14,311] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:22:21,305] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:22:21,314] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 147838
+[2022-09-13 17:22:22,646] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:22:22,654] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 147838
+[2022-09-13 17:22:23,628] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:22:23,636] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 147838
+[2022-09-13 17:24:08,085] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:24:13,873] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 17:24:17,958] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /home/ HTTP/1.1" 200 11387
+[2022-09-13 17:24:19,419] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 17:24:20,922] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:24:20,929] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 147701
+[2022-09-13 17:25:55,191] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:25:56,350] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:25:58,880] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:25:59,930] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:26:09,304] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: i, d
+[2022-09-13 17:26:09,309] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 127134
+[2022-09-13 17:26:10,736] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: i, d
+[2022-09-13 17:26:10,740] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 127134
+[2022-09-13 17:26:11,768] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: i, d
+[2022-09-13 17:26:11,774] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 127134
+[2022-09-13 17:26:13,596] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: i, d
+[2022-09-13 17:26:13,600] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/ HTTP/1.1" 500 127134
+[2022-09-13 17:26:21,358] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:26:22,705] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:26:26,026] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/ HTTP/1.1" 200 19586
+[2022-09-13 17:26:36,841] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:36,842] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:37,450] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:37,451] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:38,050] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:38,051] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:38,666] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:38,667] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:39,283] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:39,284] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:39,891] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:39,903] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:44,749] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:44,750] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:45,350] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:45,351] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:45,950] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:45,951] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:46,550] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:46,551] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:47,150] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:47,152] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:47,750] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:47,751] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:48,370] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:48,370] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:48,984] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:48,986] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:49,583] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:49,584] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:51,082] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:51,083] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:51,684] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:51,686] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:52,284] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:52,284] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:52,901] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:52,902] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:53,518] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:53,519] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:54,134] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:54,134] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:54,749] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:54,750] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:55,350] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:55,350] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:55,967] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:55,968] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:56,584] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:56,584] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:57,185] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:57,186] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:57,801] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:57,802] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:58,422] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:58,422] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:59,018] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:59,019] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:26:59,634] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:26:59,636] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:00,236] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:00,238] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:00,850] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:00,851] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:01,468] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:01,468] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:02,085] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:02,085] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:02,701] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:02,702] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:03,318] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:03,318] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:03,940] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:03,942] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:04,551] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:04,551] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:05,153] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:05,154] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:05,754] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:05,755] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:06,367] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:06,368] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:06,984] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:06,985] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:07,585] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:07,585] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:08,201] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:08,202] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:08,801] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:08,802] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:09,417] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:09,418] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:10,160] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=%E6%B4%AA%E6%B9%96 HTTP/1.1" 200 19940
+[2022-09-13 17:27:15,625] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:15,626] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:16,244] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:16,246] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:17,160] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=%E6%B4%AA HTTP/1.1" 200 19841
+[2022-09-13 17:27:23,722] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:23,723] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:24,320] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:24,321] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:24,937] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:24,938] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:25,552] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:25,554] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:26,152] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:26,153] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:26,755] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:26,756] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:27,353] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:27,354] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:27,972] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:27,972] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:28,571] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:28,572] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:29,186] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:29,187] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:29,802] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:29,803] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:30,418] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:30,419] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:31,018] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:27:31,019] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:27:31,805] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=%E5%A4%A7 HTTP/1.1" 200 19841
+[2022-09-13 17:28:45,360] [log.py:224] [log:log_response] [WARNING]- Bad Request: /Protect/
+[2022-09-13 17:28:45,361] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /Protect/?fatherPark=%E5%A4%A7 HTTP/1.1" 400 18104
+[2022-09-13 17:28:50,976] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /Protect/?fatherPark=%E5%A4%A7 HTTP/1.1" 201 18030
+[2022-09-13 17:29:48,748] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /Protect/?fatherPark=%E5%A4%A7 HTTP/1.1" 201 18030
+[2022-09-13 17:30:08,784] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:30:08,785] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:30:09,382] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:30:09,383] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:30:09,995] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:30:09,996] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:30:12,400] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:30:12,401] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:30:12,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/2 HTTP/1.1" 301 0
+[2022-09-13 17:30:13,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/2/ HTTP/1.1" 200 19239
+[2022-09-13 17:30:32,051] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/2/ HTTP/1.1" 200 19239
+[2022-09-13 17:30:35,479] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/2/ HTTP/1.1" 200 19239
+[2022-09-13 17:30:38,813] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:30:38,814] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:30:39,414] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:30:39,415] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:30:40,030] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:30:40,030] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:30:40,629] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:30:40,630] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:30:41,384] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/ HTTP/1.1" 200 20222
+[2022-09-13 17:31:32,094] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /Protect/ HTTP/1.1" 201 17864
+[2022-09-13 17:31:36,113] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/ HTTP/1.1" 200 20534
+[2022-09-13 17:31:57,842] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/ HTTP/1.1" 200 20534
+[2022-09-13 17:32:00,685] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:00,687] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:01,284] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:01,285] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:01,572] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/3 HTTP/1.1" 301 0
+[2022-09-13 17:32:01,937] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/3/ HTTP/1.1" 200 19222
+[2022-09-13 17:32:08,580] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:08,582] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:09,186] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:09,187] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:09,786] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:09,787] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:10,403] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:10,404] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:11,019] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:11,020] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:11,625] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:11,626] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:12,157] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=%E6%B4%AA HTTP/1.1" 200 20789
+[2022-09-13 17:32:20,450] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:20,451] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:21,052] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:21,053] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:21,672] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:21,673] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:22,285] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:22,286] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:22,903] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:22,904] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:23,886] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=1 HTTP/1.1" 200 20701
+[2022-09-13 17:32:28,794] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=1 HTTP/1.1" 200 20701
+[2022-09-13 17:32:31,832] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:31,833] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:32,436] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:32,437] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:33,036] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:33,038] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:33,638] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:33,639] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:34,240] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:34,241] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:34,855] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:34,856] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:35,591] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=%E6%B4%AA HTTP/1.1" 200 20789
+[2022-09-13 17:32:38,211] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=%E6%B4%AA HTTP/1.1" 200 20789
+[2022-09-13 17:32:57,199] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:57,200] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:57,805] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:57,805] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:58,424] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:32:58,425] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:32:59,102] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=47 HTTP/1.1" 200 20712
+[2022-09-13 17:33:19,590] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:33:19,591] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:33:20,190] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:33:20,191] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:33:20,807] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:33:20,808] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:33:21,694] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/3/ HTTP/1.1" 200 19222
+[2022-09-13 17:34:21,255] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /Protect/3/ HTTP/1.1" 200 19224
+[2022-09-13 17:44:17,640] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:44:18,906] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:44:23,334] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/3/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 83, in get_object
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:44:23,342] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/3/ HTTP/1.1" 500 152161
+[2022-09-13 17:44:34,472] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:44:35,664] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:44:49,463] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:44:50,682] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:44:56,626] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:44:57,835] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:45:02,275] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/3/ HTTP/1.1" 200 19224
+[2022-09-13 17:45:07,851] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:07,852] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:08,447] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:08,448] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:09,066] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:09,068] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:09,681] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:09,681] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:10,625] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=%E6%B4%AA HTTP/1.1" 200 20519
+[2022-09-13 17:45:19,058] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:19,061] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:19,663] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:19,664] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:20,264] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:20,265] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:20,866] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:20,867] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:21,482] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:21,483] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:22,083] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:22,085] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:22,680] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:22,681] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:23,282] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:23,282] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:23,887] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:23,889] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:24,497] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:24,498] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:25,098] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:25,099] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:25,584] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=%E6%9D%9C%E5%85%AC%E6%B9%96 HTTP/1.1" 200 20681
+[2022-09-13 17:45:32,170] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=%E6%9D%9C%E5%85%AC%E6%B9%96 HTTP/1.1" 200 20681
+[2022-09-13 17:45:42,298] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:42,299] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:42,898] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:42,898] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:43,515] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:43,517] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:44,119] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:44,120] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:45,037] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:45,039] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:45,649] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:45,650] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:46,266] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:46,266] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:46,882] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:45:46,882] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:45:47,516] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?id=3 HTTP/1.1" 200 19749
+[2022-09-13 17:46:23,571] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:46:24,801] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:46:27,899] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?id=3 HTTP/1.1" 200 19302
+[2022-09-13 17:46:30,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?id=3 HTTP/1.1" 200 19302
+[2022-09-13 17:46:35,032] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:35,033] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:35,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/3/ HTTP/1.1" 200 19224
+[2022-09-13 17:46:41,332] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:41,333] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:41,937] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:41,938] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:42,552] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:42,553] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:43,168] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:43,169] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:43,770] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:43,771] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:44,389] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:44,391] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:44,989] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:44,990] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:45,602] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:45,603] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:46,206] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:46,207] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:46,803] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:46,804] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:47,419] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:47,420] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:48,019] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:48,021] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:48,637] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:48,638] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:49,240] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:49,241] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:49,852] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:49,853] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:50,584] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=1 HTTP/1.1" 200 20000
+[2022-09-13 17:46:55,768] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:46:55,769] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:46:56,850] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/?fatherPark=47 HTTP/1.1" 200 20009
+[2022-09-13 17:47:09,318] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:47:10,539] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:47:14,627] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /Protect/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 221, in resolve_field
+    lhs = query.try_transform(*args)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\query.py", line 1249, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'contains' for ForeignKey or join on the field not permitted.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 340, in get_filters
+    filters[filter_name] = cls.filter_for_field(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\filterset.py", line 363, in filter_for_field
+    field, lookup_type = resolve_field(field, lookup_expr)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django_filters\utils.py", line 227, in resolve_field
+    raise FieldLookupError(model_field, lookup_expr) from e
+django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for field 'polls.Protect.fatherPark'.
+[2022-09-13 17:47:14,636] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /Protect/?fatherPark=47 HTTP/1.1" 500 148705
+[2022-09-13 17:47:23,493] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:47:24,700] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:47:27,083] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:47:28,039] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:47:35,681] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 17:47:36,785] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 17:50:04,778] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:50:04,782] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:50:05,048] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 17:50:07,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 186189
+[2022-09-13 17:50:14,911] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 17:54:39,249] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:39,252] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:39,848] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:39,849] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:40,465] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:40,466] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:41,065] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:41,066] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:41,682] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:41,682] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:42,297] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:42,297] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:42,897] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:42,898] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:43,513] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:43,514] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:44,114] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:44,114] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:44,715] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:44,717] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:45,322] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:45,323] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:45,930] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:45,931] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:46,549] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:46,550] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:47,167] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:47,168] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:47,780] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:47,781] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:48,397] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:48,398] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:48,998] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:48,998] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:49,597] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:49,598] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:50,216] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:50,217] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:50,814] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 17:54:50,815] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 17:54:50,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addpark/ HTTP/1.1" 200 639
+[2022-09-13 17:54:50,919] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-13 17:54:50,993] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-13 17:55:01,587] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addpark/ HTTP/1.1" 200 639
+[2022-09-13 17:55:01,663] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-13 17:55:01,738] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-13 22:12:15,158] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:15,160] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:15,730] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:15,731] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:16,332] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:16,333] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:16,931] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:16,932] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:17,565] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:17,566] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:18,169] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:18,170] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:18,797] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:18,798] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:19,402] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:19,403] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:19,998] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:20,000] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:20,600] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:20,601] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:21,202] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:21,203] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:21,813] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:21,814] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:22,449] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:22,450] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:23,064] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:23,065] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:23,684] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:23,685] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:24,289] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:24,290] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:24,882] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:12:24,883] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:12:25,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 22:12:29,839] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 186189
+[2022-09-13 22:18:32,894] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-13 22:18:35,117] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 186189
+[2022-09-13 22:18:38,982] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:38,984] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:39,577] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:39,578] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:40,196] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:40,197] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:40,795] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:40,795] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:41,396] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:41,396] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:42,012] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:42,013] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:42,629] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:42,630] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:44,577] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:44,578] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:45,178] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:45,178] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:45,800] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:45,800] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:46,412] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:46,413] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:47,012] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:47,013] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:47,614] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:47,615] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:48,229] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:48,230] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:48,830] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:18:48,831] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:18:49,502] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?category=1 HTTP/1.1" 200 95994
+[2022-09-13 22:19:00,817] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:19:00,818] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:19:01,414] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-13 22:19:01,415] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 9499
+[2022-09-13 22:19:02,289] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/?category=2 HTTP/1.1" 200 103552
+[2022-09-13 23:47:11,728] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 23:47:13,138] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 23:47:18,156] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 23:47:19,544] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 23:47:24,148] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 23:47:25,368] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 23:47:27,610] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 23:47:28,674] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 23:47:31,835] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 23:47:32,816] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-13 23:47:45,124] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-13 23:47:46,384] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
