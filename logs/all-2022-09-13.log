@@ -1631,3 +1631,4 @@ django_filters.exceptions.FieldLookupError: Unsupported lookup 'contains' for fi
 [2022-09-13 23:47:32,816] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 [2022-09-13 23:47:45,124] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
 [2022-09-13 23:47:46,384] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 08:49:50,785] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
