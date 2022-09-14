@@ -24,5 +24,5 @@ urlpatterns = (
     # 计数器接口2
     url(r'^^sd/count(/)?$', views.sd_name),
     # 获取主页
-    # url(r'(a/)?$', views.index),
+    url(r'(a/)?$', views.index),
 )

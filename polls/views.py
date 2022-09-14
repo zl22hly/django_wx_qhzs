@@ -87,6 +87,16 @@ class parkFormAdd(forms.ModelForm):
         for name, field in self.fields.items():
             field.widget.attrs = {"class": "form-control"}
 
+class newsFormAdd(forms.ModelForm):
+    class Meta:
+        model = News
+        fields = "__all__"
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        for name, field in self.fields.items():
+            field.widget.attrs = {"class": "form-control"}
+
 
 def home_list(request):
     queryset = User.objects.all()
@@ -179,6 +189,33 @@ def add_park(request):
                                                       county=county_v, scenery=scenery_v)
 
     return render(request, 'addPark.html')
+
+
+def news_list(request):
+    queryset = News.objects.all()
+    return render(request, 'news.html', {'queryset': queryset})
+
+def news_add(request):
+    if request.method == "GET":
+        form = newsFormAdd()
+        return render(request, 'newsadd.html', {'form': form})
+    form = newsFormAdd(data=request.POST)
+    if form.is_valid():
+        # print(form.cleaned_data)
+        form.save()
+        return redirect("/newslist/")
+    else:
+        return render(request, 'newsadd.html', {'form': form})
+
+
+def news_delete(request):
+    nid = request.GET.get("nid")
+    News.objects.filter(id=nid).delete()
+    return redirect("/newslist/")
+
+
+def news_edit(request, nid):
+    row_object = News.objects.filter(id=nid).first()
 
 
 def add_news(request):

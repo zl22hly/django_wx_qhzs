@@ -59,17 +59,15 @@ class Park(models.Model):
         (11, "宜昌"),
         (12, "十堰"),
         (13, "恩施"),
-        (14, "神农架"),
-        (15, "天门"),
-        (16, "潜江"),
-        (17, "仙桃"),
+        (14, "省直"),
+
     )
-    county_CHOICE = (
-        (1, "神农架"),
-        (2, "天门"),
-        (3, "潜江"),
-        (4, "仙桃"),
-    )
+    # county_CHOICE = (
+    #     (1, "神农架"),
+    #     (2, "天门"),
+    #     (3, "潜江"),
+    #     (4, "仙桃"),
+    # )
     mapLevel_CHOICE = (
         (1, 15),
         (2, 16),
@@ -199,15 +197,15 @@ class HomeData(models.Model):
 
 
 class HomeIMGData(models.Model):
-    fatherPark = models.ForeignKey(HomeData, on_delete=models.CASCADE, verbose_name="轮播")
-    homeURL = models.CharField(max_length=600, verbose_name="首页外链")
-    homeIMG = models.CharField(max_length=600, verbose_name="图片")
-    homeTitle = models.CharField(max_length=600, verbose_name="图片标题")
+    title = models.CharField(max_length=60, verbose_name="成果")
+    homeURL = models.JSONField(default=list, blank=True, null=True,verbose_name="首页外链")
+    homeIMG = models.JSONField(default=list, blank=True, null=True,verbose_name="图片")
+    homeTitle = models.JSONField(default=list, blank=True, null=True,verbose_name="图片标题")
     
 
     class Meta:
         db_table = "sd_homeIMGData"
-        verbose_name = "轮播"
+        verbose_name = "成果"
         verbose_name_plural = verbose_name
 
     def __str__(self):

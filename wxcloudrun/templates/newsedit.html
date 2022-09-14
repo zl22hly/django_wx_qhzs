@@ -1,17 +1,16 @@
 {% extends 'home.html' %}
 {% block content %}
     <div class="container panel-heading">
-        <h3 class="panel-title">新建公园</h3>
+        <h3 class="panel-title">编辑资讯</h3>
     </div>
     <div class="container panel-body">
-        <form method="post"  novalidate>
+        <form method="post">
 
             {% csrf_token %}
             {% for field in form %}
                 <div class="form-group">
                     <label>{{ field.label }}</label>
                     {{ field }}
-                    <span style="color: red">{{ field.errors.0}}</span>
                 </div>
 
             {% endfor %}

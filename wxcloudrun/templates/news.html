@@ -1,0 +1,52 @@
+{% extends 'home.html' %}
+{% block content %}
+<div class="container">
+    <div style="margin-bottom: 10px">
+        <a class="btn btn-success" href="/newsadd/">
+            新建
+        </a>
+        <a class="btn btn-success" href="/addnews/">
+            导入
+        </a>
+    </div>
+</div>
+<div class="container panel panel-default">
+    <div class="panel-heading">资讯主体</div>
+    <div class="panel-body">
+
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>标题</th>
+                <th>时间</th>
+                <th>编辑</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            {% for obj in queryset %}
+                <tr>
+                    <th scope="row">{{ obj.id }}</th>
+                    <td>{{ obj.title }}</td>
+                    <td>{{ obj.add_Date }}</td>
+                    <td>
+                        <a class="btn btn-primary btn-xs" href="/newsedit/{{ obj.id }}/">编辑</a>
+                        <a class="btn btn-danger btn-xs" href="/newsdelete/?nid={{ obj.id }}">删除</a>
+                    </td>
+
+                </tr>
+            {% endfor %}
+
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+
+
+
+
+{% endblock %}
