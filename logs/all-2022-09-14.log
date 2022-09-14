@@ -517,3 +517,1221 @@ polls.models.NewsPosts.DoesNotExist: NewsPosts matching query does not exist.
 [2022-09-14 17:17:25,341] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
 [2022-09-14 17:25:49,296] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\urls.py changed, reloading.
 [2022-09-14 17:25:50,378] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:36:52,496] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-14 17:37:03,181] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-14 17:37:12,045] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 17:37:12,047] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10293
+[2022-09-14 17:37:12,638] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 17:37:12,638] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10293
+[2022-09-14 17:37:13,253] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 17:37:13,254] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10293
+[2022-09-14 17:37:13,722] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2960
+[2022-09-14 17:37:13,773] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:37:13,814] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:37:17,174] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2960
+[2022-09-14 17:37:17,223] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:37:20,860] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /login/ HTTP/1.1" 200 2960
+[2022-09-14 17:37:20,910] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:38:30,478] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2963
+[2022-09-14 17:38:30,524] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:38:33,845] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /homelist/ HTTP/1.1" 200 2559
+[2022-09-14 17:38:33,903] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:39:58,023] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /parklist/ HTTP/1.1" 200 37727
+[2022-09-14 17:39:58,057] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:40:03,083] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /homelist/ HTTP/1.1" 200 2565
+[2022-09-14 17:40:03,131] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:40:05,687] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2969
+[2022-09-14 17:40:05,731] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:50:09,424] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:50:10,566] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:50:12,824] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:50:13,785] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:54:00,140] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:54:01,245] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:54:06,910] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:54:08,024] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:54:13,674] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:54:14,742] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:54:20,344] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:54:21,513] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:54:28,698] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:54:29,762] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:55:05,679] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:55:06,869] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:56:29,853] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:56:31,141] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:57:00,044] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:57:24,273] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:57:25,475] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:57:36,762] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:57:37,941] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:58:02,046] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:58:03,223] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:58:13,438] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-14 17:58:16,638] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 17:58:16,639] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10460
+[2022-09-14 17:58:17,246] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 17:58:17,247] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10460
+[2022-09-14 17:58:17,574] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2969
+[2022-09-14 17:58:17,629] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:58:17,670] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:58:27,746] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:58:28,928] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:58:33,338] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 17:58:33,338] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10462
+[2022-09-14 17:58:33,904] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /loginss/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'users/login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: users/login_register.html
+[2022-09-14 17:58:33,908] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /loginss/ HTTP/1.1" 500 86232
+[2022-09-14 17:58:46,922] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:58:52,020] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /loginss/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'users/login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: users/login_register.html
+[2022-09-14 17:58:52,024] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /loginss/ HTTP/1.1" 500 86369
+[2022-09-14 17:58:55,480] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /loginss/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'users/login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: users/login_register.html
+[2022-09-14 17:58:55,482] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /loginss/ HTTP/1.1" 500 86369
+[2022-09-14 17:59:23,738] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:59:24,868] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:59:34,009] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:59:35,064] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:59:37,286] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:59:38,283] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:59:42,414] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:59:43,631] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:00:05,539] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 18:00:06,623] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:01:51,539] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 18:01:52,715] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:01:59,555] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 18:02:00,606] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:02:12,102] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 18:02:13,250] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:02:28,138] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 18:02:29,327] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:02:33,248] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 18:02:34,382] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:02:51,561] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:03:05,197] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 18:03:05,197] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10462
+[2022-09-14 18:03:05,682] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'users/login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: users/login_register.html
+[2022-09-14 18:03:05,686] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 86103
+[2022-09-14 18:03:09,021] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'users/login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: users/login_register.html
+[2022-09-14 18:03:09,024] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 86371
+[2022-09-14 18:04:06,220] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 18:04:07,347] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:04:31,647] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 18:04:32,836] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:04:57,878] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reset_password' not found. 'reset_password' is not a valid view function or pattern name.
+[2022-09-14 18:04:57,884] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 124392
+[2022-09-14 18:05:55,953] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reset_password' not found. 'reset_password' is not a valid view function or pattern name.
+[2022-09-14 18:05:55,960] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 124438
+[2022-09-14 18:06:17,643] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:06:22,449] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reset_password' not found. 'reset_password' is not a valid view function or pattern name.
+[2022-09-14 18:06:22,458] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 124438
+[2022-09-14 18:06:39,386] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reset_password' not found. 'reset_password' is not a valid view function or pattern name.
+[2022-09-14 18:06:39,391] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 124471
+[2022-09-14 18:06:42,415] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reset_password' not found. 'reset_password' is not a valid view function or pattern name.
+[2022-09-14 18:06:42,420] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 124471
+[2022-09-14 18:07:11,347] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reset_password' not found. 'reset_password' is not a valid view function or pattern name.
+[2022-09-14 18:07:11,353] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 124307
+[2022-09-14 18:07:15,808] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reset_password' not found. 'reset_password' is not a valid view function or pattern name.
+[2022-09-14 18:07:15,813] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 124307
+[2022-09-14 18:07:21,058] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:07:22,221] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reset_password' not found. 'reset_password' is not a valid view function or pattern name.
+[2022-09-14 18:07:22,227] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 124307
+[2022-09-14 18:07:23,354] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reset_password' not found. 'reset_password' is not a valid view function or pattern name.
+[2022-09-14 18:07:23,357] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 124307
+[2022-09-14 18:07:24,575] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reset_password' not found. 'reset_password' is not a valid view function or pattern name.
+[2022-09-14 18:07:24,579] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 124307
+[2022-09-14 18:07:25,491] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reset_password' not found. 'reset_password' is not a valid view function or pattern name.
+[2022-09-14 18:07:25,494] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 124307
+[2022-09-14 18:07:34,017] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'register' not found. 'register' is not a valid view function or pattern name.
+[2022-09-14 18:07:34,023] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 123416
+[2022-09-14 18:07:38,696] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /default/ HTTP/1.1" 200 1435
+[2022-09-14 18:08:58,657] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 18:08:58,658] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10462
+[2022-09-14 18:08:59,272] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 18:08:59,272] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10462
+[2022-09-14 18:08:59,881] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 18:08:59,881] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10462
+[2022-09-14 18:09:00,482] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 18:09:00,483] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10462
+[2022-09-14 18:09:01,086] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 18:09:01,086] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10462
+[2022-09-14 18:09:01,698] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 18:09:01,699] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10462
+[2022-09-14 18:09:02,299] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 18:09:02,300] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10462
+[2022-09-14 18:09:02,899] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 18:09:02,900] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10462
+[2022-09-14 18:09:03,516] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 18:09:03,517] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10462
+[2022-09-14 18:09:04,117] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 18:09:04,117] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10462
+[2022-09-14 18:14:00,590] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:14:06,367] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /default/ HTTP/1.1" 200 1435
+[2022-09-14 18:14:12,672] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 297, in loginUser
+    login(request, user)
+TypeError: login() takes 1 positional argument but 2 were given
+[2022-09-14 18:14:12,674] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /default/ HTTP/1.1" 500 72599
+[2022-09-14 18:15:44,838] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /default/ HTTP/1.1" 200 1565
+[2022-09-14 18:15:50,760] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 297, in loginUser
+    login(request, user)
+TypeError: login() takes 1 positional argument but 2 were given
+[2022-09-14 18:15:50,762] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /default/ HTTP/1.1" 500 72599
+[2022-09-14 18:18:24,168] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:18:35,463] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    return parser.libraries[name]
+KeyError: 'url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1094, in load
+    lib = find_library(parser, name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1039, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'url' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+rest_framework
+static
+tz
+[2022-09-14 18:18:35,470] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 141709
+[2022-09-14 18:19:38,016] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    return parser.libraries[name]
+KeyError: 'url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1094, in load
+    lib = find_library(parser, name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1039, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'url' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+rest_framework
+static
+tz
+[2022-09-14 18:19:38,020] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 141390
+[2022-09-14 18:19:39,622] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    return parser.libraries[name]
+KeyError: 'url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1094, in load
+    lib = find_library(parser, name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1039, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'url' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+rest_framework
+static
+tz
+[2022-09-14 18:19:39,627] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 141390
+[2022-09-14 18:20:25,572] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:20:29,692] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reset_password' not found. 'reset_password' is not a valid view function or pattern name.
+[2022-09-14 18:20:29,700] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 122776
+[2022-09-14 18:20:57,083] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 18:21:02,542] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'admin_urls'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 54: 'admin_urls'. Did you forget to register or load this tag?
+[2022-09-14 18:21:02,551] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 136954
+[2022-09-14 18:21:06,681] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'admin_urls'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 54: 'admin_urls'. Did you forget to register or load this tag?
+[2022-09-14 18:21:06,687] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 136954
+[2022-09-14 18:21:08,168] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'admin_urls'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 54: 'admin_urls'. Did you forget to register or load this tag?
+[2022-09-14 18:21:08,174] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 136954
+[2022-09-14 18:21:09,888] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'admin_urls'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 54: 'admin_urls'. Did you forget to register or load this tag?
+[2022-09-14 18:21:09,892] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 136954
+[2022-09-14 18:21:10,889] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'admin_urls'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 304, in loginUser
+    return render(request, 'login_register.html')
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 54: 'admin_urls'. Did you forget to register or load this tag?
+[2022-09-14 18:21:10,894] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /default/ HTTP/1.1" 500 136954
+[2022-09-14 18:25:36,718] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /default/ HTTP/1.1" 200 1321
+[2022-09-14 18:25:42,668] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /default/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 297, in loginUser
+    login(request, user)
+TypeError: login() takes 1 positional argument but 2 were given
+[2022-09-14 18:25:42,669] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /default/ HTTP/1.1" 500 72599
+[2022-09-14 21:23:35,730] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\urls.py changed, reloading.
+[2022-09-14 21:23:36,892] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 21:24:09,466] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\urls.py changed, reloading.
+[2022-09-14 21:24:10,590] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 21:24:13,342] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\urls.py changed, reloading.
+[2022-09-14 21:24:14,313] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 21:24:40,629] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\urls.py changed, reloading.
+[2022-09-14 21:24:41,814] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 21:24:47,924] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-14 21:24:56,127] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:24:56,128] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:24:56,732] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:24:56,733] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:24:57,349] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:24:57,350] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:24:57,950] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:24:57,951] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:05,731] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:05,732] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:11,399] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-14 21:25:17,000] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:17,002] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:17,613] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:17,614] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:18,212] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:18,214] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:18,812] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:18,813] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:19,428] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:19,430] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:20,045] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:20,046] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:20,649] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:20,650] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:21,271] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:21,272] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:21,880] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:21,881] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:22,504] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:22,505] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:23,113] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:23,114] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:24,315] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 21:25:24,328] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2969
+[2022-09-14 21:25:24,378] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 21:25:24,443] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 21:25:54,369] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:54,370] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:54,983] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:54,984] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:55,606] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:55,607] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:56,214] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:56,214] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:56,814] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:56,815] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:57,431] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:57,432] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:58,031] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:58,031] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:58,632] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:58,632] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:59,233] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:59,234] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:25:59,844] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:25:59,844] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:26:00,448] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:26:00,449] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:26:01,064] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:26:01,065] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10568
+[2022-09-14 21:26:01,464] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 301 0
+[2022-09-14 21:26:01,471] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 21:26:01,492] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2969
+[2022-09-14 21:26:01,552] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 21:26:01,631] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 21:26:38,423] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /homelist/ HTTP/1.1" 200 2565
+[2022-09-14 21:26:38,479] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 21:26:38,542] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 21:26:43,847] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /parklist/ HTTP/1.1" 200 37727
+[2022-09-14 21:26:43,893] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 21:30:25,705] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 21:30:26,908] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 21:30:31,577] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 21:30:32,730] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 21:30:35,015] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 21:30:36,157] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 21:30:54,968] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:30:54,969] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 21:30:55,563] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:30:55,564] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 21:30:56,158] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /loginsys HTTP/1.1" 301 0
+[2022-09-14 21:30:56,173] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /loginsys/ HTTP/1.1" 200 2969
+[2022-09-14 21:30:56,241] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 21:31:03,241] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:31:03,242] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 21:31:03,847] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:31:03,848] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 21:31:04,448] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:31:04,449] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 21:31:05,066] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:31:05,067] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 21:31:05,275] [log.py:224] [log:log_response] [WARNING]- Not Found: /login
+[2022-09-14 21:31:05,276] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /login HTTP/1.1" 404 10553
+[2022-09-14 21:31:15,856] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:31:15,857] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 21:31:16,465] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:31:16,466] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 21:31:16,800] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 21:31:16,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2212
+[2022-09-14 21:31:16,893] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[2022-09-14 21:31:16,894] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[2022-09-14 21:31:16,896] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[2022-09-14 21:31:16,896] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[2022-09-14 21:31:16,944] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2022-09-14 21:31:16,944] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[2022-09-14 21:31:17,071] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2022-09-14 21:31:17,073] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2022-09-14 21:31:28,520] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 21:31:28,906] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 2874
+[2022-09-14 21:31:28,941] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2022-09-14 21:31:28,983] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2022-09-14 21:31:28,983] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2022-09-14 21:31:29,066] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2022-09-14 21:31:36,380] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6055
+[2022-09-14 21:31:40,019] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 2874
+[2022-09-14 21:32:02,345] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/logout/ HTTP/1.1" 200 1514
+[2022-09-14 21:32:09,263] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 21:32:09,301] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2212
+[2022-09-14 21:32:13,993] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 21:32:14,025] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2212
+[2022-09-14 21:32:24,972] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:32:24,974] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 21:32:25,569] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:32:25,570] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 21:32:26,171] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 21:32:26,172] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 21:32:26,307] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 21:32:26,335] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2212
+[2022-09-14 22:08:02,977] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:08:08,083] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-14 22:08:18,715] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-14 22:08:26,106] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 22:08:26,106] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 22:08:26,703] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 22:08:26,704] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 22:08:27,304] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 22:08:27,305] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 22:08:27,921] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 22:08:27,927] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 22:08:28,529] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 22:08:28,530] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 22:08:29,139] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 22:08:29,140] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-14 22:08:29,567] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 22:08:29,581] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4028
+[2022-09-14 22:08:29,634] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/css/login.css?_=2.1 HTTP/1.1" 200 500
+[2022-09-14 22:08:29,635] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/fontawesome-free-5.8.1-web/css/all.min.css HTTP/1.1" 200 55111
+[2022-09-14 22:08:29,637] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 200 238628
+[2022-09-14 22:08:29,673] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/login.js?_=3.3 HTTP/1.1" 200 669
+[2022-09-14 22:08:29,676] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/vue.min.js?_=2022.7.29 HTTP/1.1" 200 93675
+[2022-09-14 22:08:29,693] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/particles/app.js HTTP/1.1" 200 3728
+[2022-09-14 22:08:29,695] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/elementui/index.js?_=2022.7.29 HTTP/1.1" 200 586253
+[2022-09-14 22:08:29,702] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/particles/particles.js HTTP/1.1" 200 51264
+[2022-09-14 22:08:29,704] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 200 115997
+[2022-09-14 22:08:29,708] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/img/bg.svg HTTP/1.1" 200 9547
+[2022-09-14 22:08:29,884] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 74256
+[2022-09-14 22:08:39,013] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 200 28200
+[2022-09-14 22:08:43,677] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 22:08:44,236] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 17277
+[2022-09-14 22:08:44,283] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 200 3861
+[2022-09-14 22:08:44,283] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 200 6608
+[2022-09-14 22:08:44,332] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/automatic/dicts.js?_=2022.7.29 HTTP/1.1" 200 6292
+[2022-09-14 22:08:44,336] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/automatic/segment.js?_=2022.7.29 HTTP/1.1" 200 1186
+[2022-09-14 22:08:44,339] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2022.7.29 HTTP/1.1" 200 1254
+[2022-09-14 22:08:44,341] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/cookie.js?_=2022.7.29 HTTP/1.1" 200 524
+[2022-09-14 22:08:44,341] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/theme/theme.js?_=2022.7.29 HTTP/1.1" 200 4274
+[2022-09-14 22:08:44,342] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/en-us.js?_=2022.7.29 HTTP/1.1" 200 811
+[2022-09-14 22:08:44,347] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/menu.js?_=2022.7.29 HTTP/1.1" 200 1189
+[2022-09-14 22:08:44,349] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/waves/waves.min.js?_=2022.7.29 HTTP/1.1" 200 6329
+[2022-09-14 22:08:44,353] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/index.js?_=2022.7.29 HTTP/1.1" 200 21460
+[2022-09-14 22:08:44,546] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 74768
+[2022-09-14 22:14:55,880] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-14 22:14:57,076] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:15:06,495] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-14 22:15:07,727] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:15:15,877] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-14 22:15:17,624] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:15:20,345] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-14 22:15:21,579] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:15:23,570] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-14 22:15:24,657] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:15:26,688] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-14 22:15:27,734] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:15:30,926] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-14 22:15:31,976] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:15:44,219] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-14 22:15:45,507] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:15:46,564] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13552
+[2022-09-14 22:15:50,006] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/logout/ HTTP/1.1" 200 161
+[2022-09-14 22:15:50,374] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/ HTTP/1.1" 200 4013
+[2022-09-14 22:17:04,474] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-14 22:17:06,193] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:34:53,340] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:35:10,201] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/ HTTP/1.1" 200 4005
+[2022-09-14 22:35:23,663] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\admin.py changed, reloading.
+[2022-09-14 22:35:26,210] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:35:31,603] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\admin.py changed, reloading.
+[2022-09-14 22:35:34,366] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:35:39,476] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\admin.py changed, reloading.
+[2022-09-14 22:35:41,869] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:35:50,623] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\admin.py changed, reloading.
+[2022-09-14 22:35:52,668] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:35:56,331] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\admin.py changed, reloading.
+[2022-09-14 22:35:59,582] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 22:36:01,619] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/ HTTP/1.1" 200 4005
+[2022-09-14 22:36:21,614] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/login/ HTTP/1.1" 302 0
+[2022-09-14 22:36:22,140] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 15951
+[2022-09-14 22:36:33,815] [log.py:224] [log:log_response] [WARNING]- Not Found: /admin/auth/user/
+[2022-09-14 22:36:33,815] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /admin/auth/user/ HTTP/1.1" 404 12623
+[2022-09-14 22:36:35,743] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/auth/group/ HTTP/1.1" 200 28449
+[2022-09-14 22:36:35,760] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css?_=2.7 HTTP/1.1" 200 19513
+[2022-09-14 22:36:35,765] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 200 4160
+[2022-09-14 22:36:35,766] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 200 4270
+[2022-09-14 22:36:35,774] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 200 189
+[2022-09-14 22:36:35,775] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 200 524
+[2022-09-14 22:36:35,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 200 1254
+[2022-09-14 22:36:35,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css?_=20180905 HTTP/1.1" 200 6874
+[2022-09-14 22:36:35,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css?_=20180905 HTTP/1.1" 200 18545
+[2022-09-14 22:36:35,779] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 200 811
+[2022-09-14 22:36:35,793] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[2022-09-14 22:36:35,796] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[2022-09-14 22:36:35,796] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+[2022-09-14 22:36:35,797] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2022-09-14 22:36:35,804] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[2022-09-14 22:36:35,807] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[2022-09-14 22:36:35,808] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2022-09-14 22:36:35,818] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 200 6292
+[2022-09-14 22:36:35,818] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 200 1186
+[2022-09-14 22:36:35,819] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 200 14237
+[2022-09-14 22:36:35,822] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 89476
+[2022-09-14 22:36:35,825] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[2022-09-14 22:36:36,107] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-09-14 22:36:40,824] [log.py:224] [log:log_response] [WARNING]- Not Found: /admin/tasks/task/
+[2022-09-14 22:36:40,825] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /admin/tasks/task/ HTTP/1.1" 404 12626

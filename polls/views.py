@@ -20,7 +20,8 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import SearchFilter, OrderingFilter
 from django import forms
 from openpyxl import load_workbook
-
+from django.contrib.auth import authenticate
+from django.contrib import messages 
 import json
 import os
 import sys
@@ -273,3 +274,31 @@ def add_news(request):
 def login(request):
     
     return render(request, 'login.html')
+
+
+def loginUser(request):
+    page = 'default'
+
+    if request.user.is_authenticated:
+        return redirect('starting-page')
+
+    if request.method == 'POST':
+        username = request.POST['username'].lower()
+        password = request.POST['password']
+
+        try:
+            user = User.objects.get(username=username)
+        except:
+            messages.error(request, 'Username does not exist')
+
+        user = authenticate(request, username=username, password=password)
+
+        if user is not None:
+            login(request, user)
+            return redirect(request.GET['next'] if 'next' in request.GET else 'starting-page')
+            # return redirect('starting-page')
+
+        else:
+            messages.error(request, 'Username OR password is incorrect')
+
+    return render(request, 'login_register.html')

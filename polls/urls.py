@@ -23,7 +23,8 @@ urlpatterns = [
     url(r'newsedit/<int:nid>/', views.news_edit),
     url(r'addpark/', views.add_park),
     url(r'addnews/', views.add_news),
-    url(r'login/', views.login),
+    url(r'loginsys/', views.login),
+    url(r'default/', views.loginUser, name="login"),
 ]
 router = DefaultRouter()
 # router.register(r'^register/$', views.registerView.as_view(), basename="register")
