@@ -269,3 +269,7 @@ def add_news(request):
                                                       )
 
     return render(request, 'addNews.html')
+
+def login(request):
+    
+    return render(request, 'login.html')

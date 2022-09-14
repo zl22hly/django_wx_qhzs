@@ -465,3 +465,55 @@ polls.models.NewsPosts.DoesNotExist: NewsPosts matching query does not exist.
 [2022-09-14 16:06:52,198] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /admin/ HTTP/1.1" 404 10125
 [2022-09-14 16:08:28,736] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\urls.py changed, reloading.
 [2022-09-14 16:08:29,927] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 16:08:36,857] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 16:08:36,858] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10246
+[2022-09-14 16:08:37,219] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /a/ HTTP/1.1" 200 10137
+[2022-09-14 16:08:38,137] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 0}
+[2022-09-14 16:08:38,138] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 22
+[2022-09-14 16:39:08,896] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 16:39:08,897] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10246
+[2022-09-14 16:39:09,177] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-14 16:39:13,339] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/ HTTP/1.1" 200 350820
+[2022-09-14 16:39:13,736] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2022-09-14 16:39:20,918] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 16:39:20,919] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10246
+[2022-09-14 16:39:21,298] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/1 HTTP/1.1" 301 0
+[2022-09-14 16:39:21,836] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/1/ HTTP/1.1" 200 33147
+[2022-09-14 16:39:30,522] [basehttp.py:161] [basehttp:log_message] [INFO]- "PUT /pack/1/ HTTP/1.1" 200 33048
+[2022-09-14 17:13:23,983] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:13:25,239] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:13:31,212] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:13:32,357] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:13:55,557] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:13:56,619] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:13:58,918] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:13:59,880] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:14:08,537] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:14:09,610] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:14:19,971] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:14:21,142] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:14:24,564] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:14:25,579] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:14:30,900] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:14:32,102] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:14:37,939] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:14:39,028] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:14:42,328] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:14:43,355] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:14:45,325] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:14:46,264] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:14:56,074] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\urls.py changed, reloading.
+[2022-09-14 17:14:57,224] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:15:04,194] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-14 17:15:05,325] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-14 17:15:15,248] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 17:15:15,248] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10399
+[2022-09-14 17:15:15,844] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-14 17:15:15,845] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10399
+[2022-09-14 17:15:16,168] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 301 0
+[2022-09-14 17:15:16,176] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 478
+[2022-09-14 17:17:25,262] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 2942
+[2022-09-14 17:17:25,297] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:17:25,341] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-14 17:25:49,296] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\urls.py changed, reloading.
+[2022-09-14 17:25:50,378] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
