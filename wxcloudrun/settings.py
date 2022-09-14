@@ -83,10 +83,10 @@ DATABASES = {
         # 'PORT': os.environ.get("MYSQL_ADDRESS").split(':')[-1],
         # 'PASSWORD': os.environ.get("MYSQL_PASSWORD"),
         'USER': 'root',
-        # 'HOST': '10.0.224.10',
-        # 'PORT': "3306",
-        'HOST': 'sh-cynosdbmysql-grp-hctuoel4.sql.tencentcdb.com',
-        'PORT': "21103",
+        'HOST': '10.0.224.10',
+        'PORT': "3306",
+        # 'HOST': 'sh-cynosdbmysql-grp-hctuoel4.sql.tencentcdb.com',
+        # 'PORT': "21103",
         'PASSWORD': 'E3wWUMKx',
         'OPTIONS': {'charset': 'utf8mb4'},
     }
@@ -224,41 +224,9 @@ SIMPLEUI_CONFIG = {
      'system_keep': False,
      
       # 用于菜单排序和过滤, 不填此字段为默认排序和全部显示。空列表[] 为全部不显示.
-     'menu_display': ['1任务管理', '2权限认证'],
+    #  'menu_display': ['1任务管理', '2权限认证'],
      
      # 设置是否开启动态菜单, 默认为False. 如果开启, 则会在每次用户登陆时刷新展示菜单内容。
      # 一般建议关闭。
      'dynamic': False,
-     'menus': [
-        {
-             'app': 'auth',
-             'name': '2权限认证',
-             'icon': 'fas fa-user-shield',
-             'models': [
-                {
-                 'name': '用户列表',
-                 'icon': 'fa fa-user',
-                 'url': 'auth/user/'
-                },
-                {
-                     'name': '用户组',
-                     'icon': 'fa fa-th-list',
-                     'url': 'auth/group/'
-                }
-            ]
-        },
- 
-        {
-             'name': '1任务管理',
-             'icon': 'fa fa-th-list',
-             'models': [
-                {
-                 'name': '任务列表',
-                 # 注意url按'/admin/应用名小写/模型名小写/'命名。 
-                 'url': '/admin/tasks/task/',
-                 'icon': 'fa fa-tasks'
-                },
-            ]
-        },
-    ]
- }
+    }
