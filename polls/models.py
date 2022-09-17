@@ -14,7 +14,7 @@ class User(AbstractUser):
 
     class Meta:
         db_table = "sd_users"
-
+        verbose_name = "用 户 "
     def __str__(self):
         return self.username
 
@@ -104,9 +104,9 @@ class Park(models.Model):
     name1 = models.CharField(max_length=60, verbose_name="名称")
     fullname = models.CharField(max_length=60, verbose_name="全名")
     abbreviation = models.CharField(max_length=60, verbose_name="简称")
-    icon = models.CharField(max_length=60, verbose_name="图标")
+    icon = models.JSONField(default=list, blank=True, null=True, verbose_name="图标")
     initiate = models.CharField(max_length=60, verbose_name="加入时间", choices=initiate_CHOICE)
-    slide = models.CharField(max_length=60, verbose_name="轮播图片")
+    slide = models.JSONField(default=list, blank=True, null=True, verbose_name="轮播图片")
     introduceEN = models.TextField(max_length=12000, verbose_name="介绍英")
     introduceZH = models.TextField(max_length=8000, verbose_name="介绍中")
     introduceMP3EN = models.CharField(max_length=60, verbose_name="英文语音")
@@ -124,7 +124,7 @@ class Park(models.Model):
 
     class Meta:
         db_table = "sd_park"
-        verbose_name = "park"
+        verbose_name = "公园"
         verbose_name_plural = verbose_name
 
     def __str__(self):
@@ -171,7 +171,7 @@ class News(models.Model):
     quote = models.CharField(max_length=60, verbose_name="引用位置")
     add_Date = models.CharField(max_length=60, verbose_name="添加时间")
     category = models.CharField(max_length=60, verbose_name="分类")
-
+    state=models.CharField(max_length=60, verbose_name="状态",default="true")
     class Meta:  
         db_table = "sd_news"
         verbose_name = "资讯原文"

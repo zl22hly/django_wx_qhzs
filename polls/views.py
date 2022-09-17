@@ -146,9 +146,9 @@ def add_park(request):
         name1_v = row[3].value
         fullname_v = row[4].value
         abbreviation_v = row[5].value
-        icon_v = row[6].value
+        icon_v = json.loads(row[6].value)
         initiate_v = row[7].value
-        slide_v = row[8].value
+        slide_v = json.loads(row[8].value)
         introduceEN_v = row[9].value
         introduceZH_v = row[10].value
         introduceMP3EN_v = row[11].value

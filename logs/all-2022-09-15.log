@@ -1,0 +1,35 @@
+[2022-09-15 13:26:45,068] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-15 13:26:49,823] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-15 13:26:50,951] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-15 13:27:21,322] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-15 13:27:22,399] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-15 13:27:24,976] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-15 13:27:25,879] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-15 13:27:29,041] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-15 13:27:30,001] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-15 13:27:39,112] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-15 13:28:48,281] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-15 13:28:49,450] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-15 13:28:51,624] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-15 13:28:52,651] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-15 13:29:01,168] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6055
+[2022-09-15 13:29:06,004] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-15 13:29:06,005] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-15 13:29:06,534] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 19442
+[2022-09-15 13:29:34,410] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 19442
+[2022-09-15 13:29:35,521] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 19442
+[2022-09-15 13:29:43,069] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/logout/ HTTP/1.1" 200 161
+[2022-09-15 13:29:43,215] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/ HTTP/1.1" 200 4005
+[2022-09-15 13:29:52,473] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/login/ HTTP/1.1" 302 0
+[2022-09-15 13:29:52,749] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 19442
+[2022-09-15 13:29:56,437] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/polls/user/ HTTP/1.1" 200 25060
+[2022-09-15 13:29:56,622] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-09-15 13:30:06,954] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-15 13:30:08,169] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-15 13:30:11,575] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-15 13:30:12,622] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-15 13:30:14,679] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-15 13:30:15,728] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-15 13:30:23,081] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 19448
+[2022-09-15 13:30:23,503] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/polls/user/ HTTP/1.1" 200 25066
+[2022-09-15 13:30:23,654] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
