@@ -1,0 +1,4 @@
+[2022-09-20 08:56:05,815] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-20 08:56:20,768] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addpark/ HTTP/1.1" 200 741
+[2022-09-20 08:56:20,867] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-20 08:56:21,054] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825

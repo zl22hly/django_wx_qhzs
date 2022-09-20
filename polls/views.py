@@ -163,7 +163,7 @@ def add_park(request):
         city_v = row[20].value
         county_v = row[21].value
         scenery_v = json.loads(row[22].value)
-        exists = Park.objects.filter(name1=name1_v).exists()
+        exists = Park.objects.filter(fullname=fullname_v).exists()
         if not exists:
             Park.objects.create(naturalLevel=naturalLevel_v, ParkLevel=ParkLevel_v,
                                 numbering=numbering_v, name1=name1_v, fullname=fullname_v,
@@ -243,7 +243,7 @@ def add_news(request):
         add_Date_v = row[7].value
         category_v = row[8].value
 
-        # 数据库是否存在name1的
+        # 数据库是否存在title的
         exists = News.objects.filter(title=title_v).exists()
         # 不存在就新建存在就修改
         if not exists:

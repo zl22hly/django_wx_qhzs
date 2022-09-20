@@ -1,0 +1,31 @@
+[2022-09-19 08:59:46,438] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-19 08:59:50,334] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-19 08:59:51,474] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-20 08:47:31,237] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-20 08:47:31,347] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[2022-09-20 08:47:31,359] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2022-09-20 08:47:31,359] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2022-09-20 08:47:31,367] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[2022-09-20 08:47:31,369] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[2022-09-20 08:47:31,371] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2022-09-20 08:47:31,376] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2022-09-20 08:47:31,377] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2022-09-20 08:47:31,381] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+[2022-09-20 08:47:31,382] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2022-09-20 08:47:31,593] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2022-09-20 08:47:43,675] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-20 08:47:43,676] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-20 08:47:44,255] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-20 08:47:44,256] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-20 08:47:44,857] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-20 08:47:44,858] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-20 08:47:45,472] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-20 08:47:45,473] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-20 08:47:46,092] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-20 08:47:46,102] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-20 08:47:46,205] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addpark/ HTTP/1.1" 200 741
+[2022-09-20 08:47:46,297] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-20 08:47:46,396] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-20 08:48:22,753] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addpark/ HTTP/1.1" 200 741
+[2022-09-20 08:48:22,883] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-20 08:48:23,028] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825

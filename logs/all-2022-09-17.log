@@ -203,3 +203,62 @@ django.db.utils.IntegrityError: (1048, "Column 'introduceEN' cannot be null")
 [2022-09-17 19:05:21,208] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addpark/ HTTP/1.1" 200 741
 [2022-09-17 19:05:21,274] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
 [2022-09-17 19:05:21,361] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-17 19:47:59,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addpark/ HTTP/1.1" 200 741
+[2022-09-17 19:47:59,205] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-17 19:47:59,282] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-17 19:50:48,241] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /addpark/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 149, in add_park
+    icon_v = json.loads(row[6].value)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+[2022-09-17 19:50:48,245] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /addpark/ HTTP/1.1" 500 84283
+[2022-09-17 19:59:15,382] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-17 19:59:16,983] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-17 20:36:25,447] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-17 20:36:26,319] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-17 20:36:56,373] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-17 20:36:57,301] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-17 20:37:30,903] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-17 20:37:31,851] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-17 20:37:48,612] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-17 20:37:49,482] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-17 20:37:56,111] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('x\x02\x1aØ')
+[2022-09-17 20:37:56,112] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2022-09-17 20:37:56,115] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+[2022-09-17 20:37:56,116] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2022-09-17 20:37:56,159] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-17 20:37:56,191] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2022-09-17 20:37:56,194] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[2022-09-17 20:37:56,202] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2022-09-17 20:37:56,203] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2022-09-17 20:37:56,206] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[2022-09-17 20:37:56,208] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2022-09-17 20:37:56,208] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2022-09-17 20:37:56,209] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[2022-09-17 20:37:56,211] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+[2022-09-17 20:37:56,221] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2022-09-17 20:37:56,240] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2022-09-17 20:37:56,391] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-17 20:37:56,392] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-17 20:38:15,355] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addpark HTTP/1.1" 301 0
+[2022-09-17 20:38:15,361] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addpark/ HTTP/1.1" 200 741
+[2022-09-17 20:38:15,393] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-17 20:38:15,394] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2022-09-17 20:38:15,395] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2022-09-17 20:38:26,265] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addpark/ HTTP/1.1" 200 741
+[2022-09-17 20:38:26,286] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-17 20:41:45,072] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-17 20:42:07,485] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-17 20:42:07,719] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-17 20:42:07,720] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-17 20:42:21,333] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addpark/ HTTP/1.1" 200 741
+[2022-09-17 20:42:21,350] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-19 08:59:44,984] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
