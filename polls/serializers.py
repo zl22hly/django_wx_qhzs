@@ -10,15 +10,17 @@ class HomeDataInfoSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class ParkInfoSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Park
-        fields = "__all__"
-
-
 class ProtectInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Protect
+        fields = "__all__"
+
+
+class ParkInfoSerializer(serializers.ModelSerializer):
+
+    pos=ProtectInfoSerializer(many=True)
+    class Meta:
+        model = Park
         fields = "__all__"
 
 

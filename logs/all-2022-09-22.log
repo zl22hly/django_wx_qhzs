@@ -1,0 +1,49 @@
+[2022-09-22 10:20:44,490] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 10:20:45,978] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-22 10:20:46,928] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 14:20:10,287] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-22 14:20:27,168] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /newsPosts/ HTTP/1.1" 200 9075
+[2022-09-22 14:20:31,499] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/ HTTP/1.1" 200 20321
+[2022-09-22 14:21:07,626] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /Protect/ HTTP/1.1" 201 17757
+[2022-09-22 14:21:14,031] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/ HTTP/1.1" 200 20596
+[2022-09-22 14:21:39,648] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /Protect/ HTTP/1.1" 201 17757
+[2022-09-22 14:21:44,077] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-22 14:21:46,063] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/ HTTP/1.1" 200 457515
+[2022-09-22 14:22:01,885] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/1 HTTP/1.1" 301 0
+[2022-09-22 14:22:02,130] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/1/ HTTP/1.1" 200 35229
+[2022-09-22 15:36:44,360] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:36:45,645] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:36:48,522] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:36:49,441] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:36:51,233] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:36:52,284] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:36:59,374] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:37:00,461] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:37:06,506] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:37:07,765] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:38:27,068] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-22 15:38:28,222] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:38:33,484] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-22 15:38:34,701] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:38:39,605] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-22 15:38:40,765] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:38:45,611] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-22 15:38:46,999] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:39:01,273] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:39:02,548] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:39:34,253] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:39:35,543] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:39:44,680] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:39:45,968] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:39:59,451] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:40:00,703] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:40:02,480] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:40:03,370] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:40:04,803] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:40:05,919] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:40:08,493] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:40:09,720] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:40:11,161] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:40:12,096] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:40:17,094] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
+[2022-09-22 15:40:18,176] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

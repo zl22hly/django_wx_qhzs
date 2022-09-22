@@ -65,7 +65,7 @@ class ParkView(ModelViewSet):
     filter_backends = (SearchFilter, OrderingFilter,
                        DjangoFilterBackend)  # 指定过滤器
     search_fields = ('name1', 'fullname', 'id','abbreviation','naturalLevel','county',"city")  # 指定可搜索的字段
-    filterset_fields = ('name1', 'fullname', 'id','abbreviation','naturalLevel','county',"city")
+    filterset_fields = ('name1', 'fullname', 'id','abbreviation','county',"city")
     ordering_fields=['id','add_Date']
 
 
@@ -177,7 +177,7 @@ def add_park(request):
                                 area=area_v, city=city_v,
                                 county=county_v, scenery=scenery_v)
         else:
-            Park.objects.filter(name1=name1_v).update(naturalLevel=naturalLevel_v, ParkLevel=ParkLevel_v,
+            Park.objects.filter(fullname=fullname_v).update(naturalLevel=naturalLevel_v, ParkLevel=ParkLevel_v,
                                                       numbering=numbering_v, name1=name1_v, fullname=fullname_v,
                                                       abbreviation=abbreviation_v, icon=icon_v,
                                                       initiate=initiate_v, slide=slide_v,

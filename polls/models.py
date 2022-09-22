@@ -15,6 +15,7 @@ class User(AbstractUser):
     class Meta:
         db_table = "sd_users"
         verbose_name = "用 户 "
+        verbose_name_plural = verbose_name
     def __str__(self):
         return self.username
 
@@ -128,11 +129,11 @@ class Park(models.Model):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.name1
+        return self.fullname
 
 
 class Protect(models.Model):
-    fatherPark = models.ForeignKey(Park, on_delete=models.CASCADE, verbose_name="所属公园")
+    fatherPark = models.ForeignKey(Park, on_delete=models.CASCADE, verbose_name="所属公园",related_name="pos")
     name2 = models.CharField(max_length=60, verbose_name="名称")
     protectURL = models.CharField(max_length=60, verbose_name="外链")
     protectIMG = models.CharField(max_length=60, verbose_name="图片")

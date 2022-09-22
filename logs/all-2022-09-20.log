@@ -2,3 +2,63 @@
 [2022-09-20 08:56:20,768] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addpark/ HTTP/1.1" 200 741
 [2022-09-20 08:56:20,867] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
 [2022-09-20 08:56:21,054] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-20 11:54:57,806] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-20 11:55:05,622] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-20 11:55:06,710] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-20 11:55:08,856] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\wxcloudrun\settings.py changed, reloading.
+[2022-09-20 11:55:09,676] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-20 11:55:11,638] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-20 11:55:11,922] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-20 11:55:11,923] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-20 11:55:32,974] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addnews HTTP/1.1" 301 0
+[2022-09-20 11:55:32,980] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addnews/ HTTP/1.1" 200 740
+[2022-09-20 11:55:33,013] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-20 11:56:45,002] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /addnews/
+Traceback (most recent call last):
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py", line 235, in add_news
+    fatherParkID= NewsPosts.objects.get(id=row[8].value)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\young\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+polls.models.NewsPosts.DoesNotExist: NewsPosts matching query does not exist.
+[2022-09-20 11:56:45,006] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /addnews/ HTTP/1.1" 500 83831
+[2022-09-20 12:00:43,373] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addpark/ HTTP/1.1" 200 741
+[2022-09-20 12:00:43,393] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-20 12:00:56,024] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addpark/ HTTP/1.1" 200 741
+[2022-09-20 12:00:56,048] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-20 13:38:39,779] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-20 13:38:47,189] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/ HTTP/1.1" 200 23026
+[2022-09-20 13:38:47,233] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2022-09-20 13:40:51,203] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-20 13:40:52,531] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-20 13:40:56,056] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-20 13:40:56,989] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-20 13:41:58,403] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\models.py changed, reloading.
+[2022-09-20 13:41:59,446] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-20 13:42:06,675] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/ HTTP/1.1" 200 26440
+[2022-09-20 13:43:03,377] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/ HTTP/1.1" 200 26440
+[2022-09-20 13:47:42,618] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-20 13:47:43,618] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-20 13:47:47,283] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-20 13:47:48,157] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-20 14:11:31,107] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /addpark/ HTTP/1.1" 200 741
+[2022-09-20 14:11:31,135] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-20 14:11:39,555] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addpark/ HTTP/1.1" 200 741
+[2022-09-20 14:11:39,591] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-20 14:29:11,282] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-20 14:29:43,390] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addpark/ HTTP/1.1" 200 741
+[2022-09-20 14:29:43,410] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-20 14:51:42,795] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-20 14:51:42,796] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-20 15:47:55,636] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /addpark/ HTTP/1.1" 200 741
+[2022-09-20 15:47:55,664] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 404 1825
+[2022-09-21 09:32:17,927] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-21 09:32:17,930] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-21 12:13:19,123] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-21 12:13:19,124] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-22 10:20:43,009] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
