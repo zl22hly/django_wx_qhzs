@@ -65,7 +65,7 @@ class ParkView(ModelViewSet):
     filter_backends = (SearchFilter, OrderingFilter,
                        DjangoFilterBackend)  # 指定过滤器
     search_fields = ('name1', 'fullname', 'id','abbreviation','naturalLevel','county',"city")  # 指定可搜索的字段
-    filterset_fields = ('name1', 'fullname', 'id','abbreviation','county',"city")
+    filterset_fields = ('name1', 'fullname', 'id','abbreviation','naturalLevel','county',"city")
     ordering_fields=['id','add_Date']
 
 

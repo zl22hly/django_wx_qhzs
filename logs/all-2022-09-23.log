@@ -1,0 +1,106 @@
+[2022-09-23 09:11:30,203] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-23 09:11:33,762] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-23 09:11:34,918] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-23 09:11:37,319] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-23 09:11:38,666] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-23 09:11:40,121] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-23 09:11:41,152] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-23 09:11:53,970] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-23 09:11:54,070] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[2022-09-23 09:11:54,073] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2022-09-23 09:11:54,074] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2022-09-23 09:11:54,076] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[2022-09-23 09:11:54,077] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+[2022-09-23 09:11:54,078] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[2022-09-23 09:11:54,084] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2022-09-23 09:11:54,085] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2022-09-23 09:11:54,088] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2022-09-23 09:11:54,092] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2022-09-23 09:11:54,255] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2022-09-23 09:11:54,471] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:11:54,472] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:05,583] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/ HTTP/1.1" 200 462628
+[2022-09-23 09:12:06,154] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2022-09-23 09:12:11,331] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:11,333] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:11,908] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:11,909] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:12,508] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:12,508] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:15,189] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:15,190] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:15,791] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:15,792] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:17,834] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?naturalLevel=1 HTTP/1.1" 200 21077
+[2022-09-23 09:12:25,306] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:25,307] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:25,907] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:25,908] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:26,524] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:26,525] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:27,123] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:27,124] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:27,742] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:27,744] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:28,358] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:28,358] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:28,973] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:28,974] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:29,576] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:29,577] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:30,190] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:30,190] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:30,793] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:30,794] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:31,408] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:31,409] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:32,028] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:32,029] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:32,625] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:32,627] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:33,231] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:33,232] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:33,841] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:33,842] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:34,457] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:34,458] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:35,060] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:35,060] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:35,675] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:35,676] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:36,276] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:36,277] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:36,891] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:36,891] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:40,142] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?naturalLevel=%E9%87%8D%E8%A6%81%E6%B9%BF%E5%9C%B0 HTTP/1.1" 200 463223
+[2022-09-23 09:12:52,345] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:12:52,347] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:12:53,266] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?naturalLevel=%E5%9B%BD%E9%99%85%E9%87%8D%E8%A6%81%E6%B9%BF%E5%9C%B0 HTTP/1.1" 200 48768
+[2022-09-23 09:13:01,646] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:13:01,647] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:13:02,241] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:13:02,242] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:13:02,843] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:13:02,844] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:13:05,008] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?naturalLevel=%E9%87%8D%E8%A6%81%E6%B9%BF%E5%9C%B0 HTTP/1.1" 200 463223
+[2022-09-23 09:13:19,228] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:13:19,230] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:13:19,827] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:13:19,828] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:13:20,427] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:13:20,428] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:13:21,044] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:13:21,045] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:13:21,647] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:13:21,647] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:13:22,245] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:13:22,246] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:13:22,860] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:13:22,861] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:13:23,464] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-09-23 09:13:23,465] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 10571
+[2022-09-23 09:13:25,556] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/?naturalLevel=%E6%B9%BF%E5%9C%B0 HTTP/1.1" 200 463019
+[2022-09-23 09:16:27,862] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-23 09:16:29,085] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-23 09:16:32,605] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
+[2022-09-23 09:16:33,641] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

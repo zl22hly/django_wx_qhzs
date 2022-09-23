@@ -47,3 +47,19 @@
 [2022-09-22 15:40:12,096] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 [2022-09-22 15:40:17,094] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\serializers.py changed, reloading.
 [2022-09-22 15:40:18,176] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-09-22 15:40:23,277] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-22 15:40:28,671] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/ HTTP/1.1" 200 460555
+[2022-09-22 16:16:20,782] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/1/ HTTP/1.1" 200 36814
+[2022-09-22 16:16:28,837] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-22 16:16:32,169] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/ HTTP/1.1" 200 20871
+[2022-09-22 16:18:52,045] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /Protect/ HTTP/1.1" 201 17842
+[2022-09-22 16:19:37,452] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /Protect/ HTTP/1.1" 201 17834
+[2022-09-22 16:20:12,652] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /Protect/ HTTP/1.1" 201 17842
+[2022-09-22 16:20:32,936] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /Protect/ HTTP/1.1" 201 17834
+[2022-09-22 16:21:09,075] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /Protect/ HTTP/1.1" 201 17832
+[2022-09-22 16:21:18,668] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /Protect/ HTTP/1.1" 200 22448
+[2022-09-22 16:21:35,357] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6021
+[2022-09-22 16:21:38,620] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/ HTTP/1.1" 200 462500
+[2022-09-22 16:21:42,484] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/47 HTTP/1.1" 301 0
+[2022-09-22 16:21:42,819] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /pack/47/ HTTP/1.1" 200 30160
+[2022-09-23 09:11:28,629] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- E:\zl\git-django-qyzs\django_wx_qhzs\polls\views.py changed, reloading.
